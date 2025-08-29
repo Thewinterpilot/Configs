@@ -1,0 +1,43 @@
+2025-08-29 13:38:38.882 [info] [main] Log level: Info
+2025-08-29 13:38:38.882 [info] [main] Validating found git in: "git"
+2025-08-29 13:38:38.882 [info] [main] Using git "2.50.1" from "git"
+2025-08-29 13:38:38.882 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-29 13:38:38.882 [info] > git rev-parse --show-toplevel [9ms]
+2025-08-29 13:38:38.882 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-08-29 13:38:38.882 [info] [Model][openRepository] Opened repository (path): /home/winter/Configs
+2025-08-29 13:38:38.882 [info] [Model][openRepository] Opened repository (real path): /home/winter/Configs
+2025-08-29 13:38:38.883 [info] > git rev-parse --show-toplevel [5ms]
+2025-08-29 13:38:38.884 [info] > git config --get commit.template [17ms]
+2025-08-29 13:38:38.913 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-29 13:38:38.914 [info] > git rev-parse --show-toplevel [16ms]
+2025-08-29 13:38:38.914 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-29 13:38:38.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:38:38.916 [warning] [Git][getBranch] No such branch: master
+2025-08-29 13:38:38.948 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-29 13:38:40.535 [info] > git status -z -uall [1607ms] (cancelled)
+2025-08-29 13:38:40.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1377ms]
+2025-08-29 13:38:40.535 [warning] [Git][getBranch] No such branch: master
+2025-08-29 13:38:40.536 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-08-29 13:38:40.588 [info] > git config --get commit.template [54ms]
+2025-08-29 13:38:40.600 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-29 13:38:40.601 [info] > git check-ignore -v -z --stdin [49ms]
+2025-08-29 13:38:40.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:38:40.603 [warning] [Git][getBranch] No such branch: master
+2025-08-29 13:38:40.633 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-29 13:38:40.769 [info] > git status -z -uall [156ms] (cancelled)
+2025-08-29 13:38:53.572 [info] > git fetch [13ms]
+2025-08-29 13:38:53.602 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-29 13:38:53.603 [info] > git config --get commit.template [16ms]
+2025-08-29 13:38:53.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:38:53.605 [warning] [Git][getBranch] No such branch: master
+2025-08-29 13:38:53.643 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-29 13:38:53.834 [info] > git status -z -uall [215ms] (cancelled)
+2025-08-29 13:38:56.785 [info] > git check-ignore -v -z --stdin [39ms]
+2025-08-29 13:39:00.872 [info] > git check-ignore -v -z --stdin [55ms]
+2025-08-29 13:40:26.655 [info] > git show --textconv :rmbulk.bash [17ms]
+2025-08-29 13:40:26.671 [info] > git ls-files --stage -- rmbulk.bash [17ms]
+2025-08-29 13:40:26.701 [info] > git hash-object -t tree /dev/null [17ms]
+2025-08-29 13:40:26.702 [warning] [GitFileSystemProvider][stat] File not found - git:/home/winter/Configs/rmbulk.bash.git?%7B%22path%22%3A%22%2Fhome%2Fwinter%2FConfigs%2Frmbulk.bash%22%2C%22ref%22%3A%22%22%7D
+2025-08-29 13:40:26.704 [info] > git hash-object -t tree /dev/null [34ms]
+2025-08-29 13:40:26.704 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/winter/Configs/rmbulk.bash.git?%7B%22path%22%3A%22%2Fhome%2Fwinter%2FConfigs%2Frmbulk.bash%22%2C%22ref%22%3A%22%22%7D
+2025-08-29 13:40:26.711 [info] > git check-ignore -v -z --stdin [10ms]

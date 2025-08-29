@@ -1,0 +1,4 @@
+2025-08-29 13:34:04.441 [info] Started local extension host with pid 2133674.
+2025-08-29 13:34:05.000 [info] ComputeTargetPlatform: linux-x64
+2025-08-29 13:34:08.044 [info] [perf] Render performance baseline is 29ms
+2025-08-29 13:35:18.495 [warning] [backup tracker] suspended, ignoring unregister event file:///home/winter/Games/.git/COMMIT_EDITMSG 

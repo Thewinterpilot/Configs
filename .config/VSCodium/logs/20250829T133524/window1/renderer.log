@@ -1,0 +1,5 @@
+2025-08-29 13:35:25.835 [info] Started local extension host with pid 2134526.
+2025-08-29 13:35:25.905 [info] ComputeTargetPlatform: linux-x64
+2025-08-29 13:35:26.092 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-29 13:35:28.837 [info] [perf] Render performance baseline is 59ms
+2025-08-29 13:36:27.631 [warning] [backup tracker] suspended, ignoring unregister event file:///home/winter/Configs/.git/COMMIT_EDITMSG 

@@ -7,13 +7,12 @@
         "folders": [
             {
                 "folderUri": "file:///home/winter/code"
+            },
+            {
+                "folderUri": "file:///home/winter/Configs"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1756323370718"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -28,11 +27,11 @@
             "file:///home/winter/.config/hypr": "__default__profile__",
             "file:///home/winter/Downloads": "__default__profile__",
             "file:///home/winter/.config": "__default__profile__",
-            "file:///home/winter/Games": "__default__profile__"
+            "file:///home/winter/Games": "__default__profile__",
+            "file:///home/winter/Configs": "__default__profile__",
+            "file:///home/winter/Configs/.config": "__default__profile__"
         },
-        "emptyWindows": {
-            "1756323370718": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#19002e",
@@ -54,7 +53,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 321,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -62,10 +61,11 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/winter/.config/VSCodium/Backups/1756323370718",
+            "folder": "file:///home/winter/Configs",
+            "backupPath": "/home/winter/.config/VSCodium/Backups/49abce3863353143c2a9ea6813d2a299",
             "uiState": {
                 "mode": 1,
-                "x": 16,
+                "x": 968,
                 "y": 66,
                 "width": 934,
                 "height": 997
@@ -75,7 +75,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 170,
+            "sideBarWidth": 321,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "f1989b8b20321781b755939be7d4630c": {
@@ -115,6 +115,14 @@
                     "auxiliaryBarVisible": false
                 },
                 "d5c4784f6cad259aca9ddb5a0b53d02f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fd5f578dbd6e45c218719b461a06e9ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7177d8cf6e8be586966e1f72fafdae44": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

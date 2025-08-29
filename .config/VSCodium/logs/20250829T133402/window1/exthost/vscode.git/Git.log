@@ -1,0 +1,82 @@
+2025-08-29 13:34:06.453 [info] [main] Log level: Info
+2025-08-29 13:34:06.453 [info] [main] Validating found git in: "git"
+2025-08-29 13:34:06.453 [info] [main] Using git "2.50.1" from "git"
+2025-08-29 13:34:06.453 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-29 13:34:06.453 [info] > git rev-parse --show-toplevel [11ms]
+2025-08-29 13:34:06.453 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-08-29 13:34:06.453 [info] [Model][openRepository] Opened repository (path): /home/winter/Games
+2025-08-29 13:34:06.453 [info] [Model][openRepository] Opened repository (real path): /home/winter/Games
+2025-08-29 13:34:06.455 [info] > git rev-parse --show-toplevel [397ms]
+2025-08-29 13:34:06.456 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-29 13:34:06.458 [info] > git config --get commit.template [411ms]
+2025-08-29 13:34:06.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-08-29 13:34:06.614 [info] > git status -z -uall [17ms]
+2025-08-29 13:34:06.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-08-29 13:34:06.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-08-29 13:34:06.690 [info] > git config --get commit.template [15ms]
+2025-08-29 13:34:06.703 [info] > git config --get --local branch.master.vscode-merge-base [15ms]
+2025-08-29 13:34:06.704 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-29 13:34:06.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-08-29 13:34:06.728 [info] > git reflog master --grep-reflog=branch: Created from *. [12ms]
+2025-08-29 13:34:06.769 [info] > git status -z -uall [13ms]
+2025-08-29 13:34:06.769 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2025-08-29 13:34:06.769 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-08-29 13:34:06.769 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-08-29 13:34:06.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-08-29 13:34:06.823 [info] > git merge-base refs/heads/master refs/remotes/origin/master [20ms]
+2025-08-29 13:34:06.833 [info] > git merge-base refs/heads/master refs/remotes/origin/master [50ms]
+2025-08-29 13:34:06.847 [info] > git diff --name-status -z --diff-filter=ADMR 382eabac9d3a6b1e2e044b1d85f432146e214e9c...refs/remotes/origin/master [14ms]
+2025-08-29 13:34:06.850 [info] > git diff --name-status -z --diff-filter=ADMR 382eabac9d3a6b1e2e044b1d85f432146e214e9c...refs/remotes/origin/master [5ms]
+2025-08-29 13:34:06.887 [info] > git fetch [859ms]
+2025-08-29 13:34:06.887 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Thewinterpilot/Games.git/'
+2025-08-29 13:34:06.909 [info] > git config --get commit.template [4ms]
+2025-08-29 13:34:06.963 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [77ms]
+2025-08-29 13:34:06.965 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [42ms]
+2025-08-29 13:34:06.994 [info] > git status -z -uall [13ms]
+2025-08-29 13:34:06.997 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-29 13:34:07.445 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-29 13:34:08.785 [info] > git add -A -- . [5ms]
+2025-08-29 13:34:09.319 [info] > git show --textconv :.git/COMMIT_EDITMSG [15ms]
+2025-08-29 13:34:09.333 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [14ms]
+2025-08-29 13:34:09.349 [info] > git hash-object -t tree /dev/null [17ms]
+2025-08-29 13:34:09.350 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/winter/Games/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fwinter%2FGames%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-08-29 13:34:09.353 [info] > git hash-object -t tree /dev/null [4ms]
+2025-08-29 13:34:09.353 [warning] [GitFileSystemProvider][stat] File not found - git:/home/winter/Games/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fwinter%2FGames%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-08-29 13:34:09.648 [info] > git check-ignore -v -z --stdin [2ms]
+2025-08-29 13:34:11.676 [info] > git blame --root --incremental 382eabac9d3a6b1e2e044b1d85f432146e214e9c -- .git/COMMIT_EDITMSG [3ms]
+2025-08-29 13:34:11.676 [info] fatal: no such path .git/COMMIT_EDITMSG in 382eabac9d3a6b1e2e044b1d85f432146e214e9c
+2025-08-29 13:34:22.451 [info] > git -c user.useConfigOnly=true commit --quiet [13653ms]
+2025-08-29 13:34:22.484 [info] > git config --get commit.template [17ms]
+2025-08-29 13:34:22.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-08-29 13:34:22.543 [info] > git status -z -uall [26ms]
+2025-08-29 13:34:22.550 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-08-29 13:34:22.579 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-08-29 13:34:22.600 [info] > git diff --name-status -z --diff-filter=ADMR 382eabac9d3a6b1e2e044b1d85f432146e214e9c...refs/remotes/origin/master [4ms]
+2025-08-29 13:34:22.652 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [31ms]
+2025-08-29 13:34:22.655 [info] > git config --get commit.template [5ms]
+2025-08-29 13:34:22.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:34:22.706 [info] > git status -z -uall [17ms]
+2025-08-29 13:34:22.709 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-08-29 13:34:26.347 [info] > git log --oneline --cherry master...master@{upstream} -- [4ms]
+2025-08-29 13:34:27.550 [info] > git pull --tags origin master [1187ms]
+2025-08-29 13:34:27.550 [info] From https://github.com/Thewinterpilot/Games
+ * branch            master     -> FETCH_HEAD
+2025-08-29 13:34:28.942 [info] > git push origin master:master [1378ms]
+2025-08-29 13:34:28.942 [info] To https://github.com/Thewinterpilot/Games.git
+   382eaba..c7b0fc4  master -> master
+2025-08-29 13:34:28.973 [info] > git config --get commit.template [15ms]
+2025-08-29 13:34:28.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:34:29.006 [info] > git status -z -uall [16ms]
+2025-08-29 13:34:29.008 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-29 13:34:29.037 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-08-29 13:34:29.069 [info] > git diff --name-status -z --diff-filter=ADMR c7b0fc48b678b22b10dddca29af7e98f01051028...refs/remotes/origin/master [17ms]
+2025-08-29 13:34:29.084 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]
+2025-08-29 13:34:30.067 [info] > git config --get commit.template [15ms]
+2025-08-29 13:34:30.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-29 13:34:30.098 [info] > git status -z -uall [15ms]
+2025-08-29 13:34:30.100 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

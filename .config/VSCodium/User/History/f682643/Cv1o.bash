@@ -1,0 +1,1 @@
+rm arkrc baloofileinformationrc

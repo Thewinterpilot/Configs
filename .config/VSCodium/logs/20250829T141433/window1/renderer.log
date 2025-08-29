@@ -1,0 +1,4 @@
+2025-08-29 14:14:35.549 [info] Started local extension host with pid 2163144.
+2025-08-29 14:14:35.672 [info] ComputeTargetPlatform: linux-x64
+2025-08-29 14:14:39.288 [info] [perf] Render performance baseline is 51ms
+2025-08-29 14:19:01.040 [warning] [backup tracker] suspended, ignoring unregister event file:///home/winter/Configs/.git/COMMIT_EDITMSG 
