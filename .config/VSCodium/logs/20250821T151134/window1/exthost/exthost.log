@@ -1,0 +1,36 @@
+2025-08-21 15:11:38.946 [info] Extension host with pid 52159 started
+2025-08-21 15:11:38.946 [info] Skipping acquiring lock for /home/winter/.config/VSCodium/User/workspaceStorage/936b720027a4606ee32342320b23812d.
+2025-08-21 15:11:39.441 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-21 15:11:39.601 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-21 15:11:39.636 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-21 15:11:39.724 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-21 15:11:39.883 [info] Eager extensions activated
+2025-08-21 15:11:39.906 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:39.926 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:40.034 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:40.148 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:40.154 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:40.194 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:40.221 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:41.321 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-08-21 15:11:41.970 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-08-21 15:11:49.576 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-21 15:11:49.598 [info] Extension host with pid 52159 exiting with code 0
+2025-08-21 15:11:50.438 [info] Extension host with pid 52424 started
+2025-08-21 15:11:50.438 [info] Skipping acquiring lock for /home/winter/.config/VSCodium/User/workspaceStorage/936b720027a4606ee32342320b23812d.
+2025-08-21 15:11:50.458 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-21 15:11:50.493 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:50.510 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:50.628 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-21 15:11:50.716 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-08-21 15:11:51.125 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-08-21 15:11:51.381 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-21 15:11:51.388 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-21 15:11:51.445 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-21 15:11:51.527 [info] Eager extensions activated
+2025-08-21 15:11:51.551 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:51.553 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:51.575 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:11:51.594 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2025-08-21 15:19:48.338 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-21 15:19:48.367 [info] Extension host with pid 52424 exiting with code 0

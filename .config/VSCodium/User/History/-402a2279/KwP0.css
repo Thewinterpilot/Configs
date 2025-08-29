@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(202, 255, 255);
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    opacity: .6;
+    
+}
+
+h2 {
+    color:black;
+
+}
+
+button {
+    color: blueviolet;
+    background-color: antiquewhite;
+    border-color: brown;
+}
+
+::backdrop {
+    color: bisque;
+}

@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Wildberries Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {},
+    "git.autofetch": true,
+    "git.confirmSync": false
+}

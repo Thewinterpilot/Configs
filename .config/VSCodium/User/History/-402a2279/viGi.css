@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(202, 255, 255);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 70px;
+  font: bold;
+}
+
+
+html {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+
+h2 {
+  color:black;
+
+}
+
+button {
+  color: blueviolet;
+  background-color: antiquewhite;
+  border-color: rgb(15, 36, 226);
+    
+}
+
+p {
+  text-align: center;
+}

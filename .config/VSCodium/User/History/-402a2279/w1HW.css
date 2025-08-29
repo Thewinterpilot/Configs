@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+    background-size:1%
+}
+
+h2 {
+    color:aqua;
+
+}
+
+button {
+    color: blueviolet;
+    background-color: antiquewhite;
+    border-color: brown;
+}
+
+::backdrop {
+    color: bisque;
+}

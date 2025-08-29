@@ -1,0 +1,14 @@
+2025-08-22 14:07:53.860 [info] Started local extension host with pid 7771.
+2025-08-22 14:07:55.577 [info] ComputeTargetPlatform: linux-x64
+2025-08-22 14:07:57.198 [error] Error while getting the latest version for the extension bbenoist.nix. Offline
+2025-08-22 14:07:57.211 [error] Error while getting the latest version for the extension gitcommitpeek.git-commit-peek. Offline
+2025-08-22 14:07:57.213 [error] Error while getting the latest version for the extension almenon.arepl. Offline
+2025-08-22 14:07:57.214 [error] Error while getting the latest version for the extension bpat86.nightcall. Offline
+2025-08-22 14:07:57.215 [error] Error while getting the latest version for the extension jnoortheen.nix-ide. Offline
+2025-08-22 14:07:57.216 [error] Error while getting the latest version for the extension eamodio.gitlens. Offline
+2025-08-22 14:07:57.218 [error] Error while getting the latest version for the extension ms-python.debugpy. Offline
+2025-08-22 14:07:57.219 [error] Error while getting the latest version for the extension ms-python.python. Offline
+2025-08-22 14:07:57.220 [error] Error while getting the latest version for the extension wildberries-theme.wildberries. Offline
+2025-08-22 14:07:57.221 [error] Error while getting the latest version for the extension pkief.material-icon-theme. Offline
+2025-08-22 14:07:57.222 [error] Error while getting the latest version for the extension yandeu.five-server. Offline
+2025-08-22 14:07:59.468 [info] [perf] Render performance baseline is 56ms

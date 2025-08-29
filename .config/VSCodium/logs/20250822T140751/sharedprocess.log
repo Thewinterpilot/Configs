@@ -1,0 +1,28 @@
+2025-08-22 14:07:54.670 [info] ComputeTargetPlatform: linux-x64
+2025-08-22 14:07:54.737 [info] Deleted marked for removal extension from disk eamodio.gitlens /home/winter/.vscode-oss/extensions/eamodio.gitlens-17.3.4-universal
+2025-08-22 14:07:54.739 [info] Deleted marked for removal extension from disk pkief.material-icon-theme /home/winter/.vscode-oss/extensions/pkief.material-icon-theme-5.25.0-universal
+2025-08-22 14:07:54.761 [error] Error: Unable to read file '/home/winter/.vscode-oss/extensions/eamodio.gitlens-17.3.4-universal.-416d2fc4.vsctmp/package.json' (Error: Unable to resolve nonexistent file '/home/winter/.vscode-oss/extensions/eamodio.gitlens-17.3.4-universal.-416d2fc4.vsctmp/package.json')
+    at xu.restoreReadError (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:105699)
+    at xu.doReadFileStream (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:105480)
+    at async xu.doReadFile (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:104730)
+    at async ga.scanExtensionManifest (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:51910)
+    at async ga.scanExtension (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:50212)
+    at async Promise.all (index 4)
+    at async ga.scanExtensionsFromLocation (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:48452)
+    at async Hh.scanAllUserExtensions (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:39871)
+    at async wu.scanAllUserExtensions (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:82563)
+    at async j5.deleteExtensionsNotInProfiles (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:69500)
+    at async j5.initialize (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:66292)
+2025-08-22 14:07:54.763 [error] Error: Unable to read file '/home/winter/.vscode-oss/extensions/pkief.material-icon-theme-5.25.0-universal.-309da39b.vsctmp/package.json' (Error: Unable to resolve nonexistent file '/home/winter/.vscode-oss/extensions/pkief.material-icon-theme-5.25.0-universal.-309da39b.vsctmp/package.json')
+    at xu.restoreReadError (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:105699)
+    at xu.doReadFileStream (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:105480)
+    at async xu.doReadFile (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:104730)
+    at async ga.scanExtensionManifest (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:51910)
+    at async ga.scanExtension (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:50212)
+    at async Promise.all (index 11)
+    at async ga.scanExtensionsFromLocation (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:48452)
+    at async Hh.scanAllUserExtensions (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:39871)
+    at async wu.scanAllUserExtensions (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:82563)
+    at async j5.deleteExtensionsNotInProfiles (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:69500)
+    at async j5.initialize (file:///nix/store/d4hv805856n8gzx5nj5l8d68jygg3ifa-vscodium-1.100.13210/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:66292)
+2025-08-22 14:07:57.168 [info] ComputeTargetPlatform: linux-x64

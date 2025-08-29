@@ -1,0 +1,124 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "b8283e493590b5751c39ea19695ee766cab4f146652fd4053bf8edd9cfc7a6a4",
+    "telemetry.devDeviceId": "b04889ba-bd25-4cfc-88b7-98e944eaad45",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/winter/code"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1756323370718"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/winter/Desktop/cd": "__default__profile__",
+            "file:///etc/nixos": "__default__profile__",
+            "file:///home/winter": "__default__profile__",
+            "file:///etc": "__default__profile__",
+            "file:///home/winter/.dotfiles": "__default__profile__",
+            "file:///home/winter/code": "__default__profile__",
+            "file:///home/winter/.config/dunst": "__default__profile__",
+            "file:///home/winter/.config/hypr": "__default__profile__",
+            "file:///home/winter/Downloads": "__default__profile__",
+            "file:///home/winter/.config": "__default__profile__",
+            "file:///home/winter/Games": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1756323370718": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#19002e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#19002e",
+            "editorBackground": "#19002e",
+            "titleBarBackground": "#240041",
+            "activityBarBackground": "#19002e",
+            "sideBarBackground": "#240041",
+            "statusBarBackground": "#c79bff",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/winter/.config/VSCodium/Backups/1756323370718",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 66,
+                "width": 934,
+                "height": 997
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "f1989b8b20321781b755939be7d4630c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f17febf6faa7f95e3fd49cf0ffd0749c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7dabb54dfdcf0f4044bf3d69d9470b94": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "42dfaae7779056ca30c504c6eac3e0ff": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f4b52e64e3a42cdceb0a4356a395b36b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "383c0eb9ee2d1256acbd16bf431c3fdc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c93e79c86277e737ea31202542e564be": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d719032fa0a940c576a0fd22c9b22efb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "936b720027a4606ee32342320b23812d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d5c4784f6cad259aca9ddb5a0b53d02f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

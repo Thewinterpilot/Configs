@@ -1,0 +1,15 @@
+2025-08-21 15:11:41.938 [info] Telemetry level is off
+2025-08-21 15:11:41.938 [info] Experiments are disabled, only manually opted experiments are active.
+2025-08-21 15:11:41.938 [warning] Dir "/home/winter/.config/.pixi/envs" is not watchable (directory does not exist)
+2025-08-21 15:11:42.121 [info] > pyenv which python
+2025-08-21 15:11:42.121 [info] cwd: .
+2025-08-21 15:11:42.350 [info] > /run/current-system/sw/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-08-21 15:11:42.453 [info] Python interpreter path: /run/current-system/sw/bin/python
+2025-08-21 15:11:43.790 [info] Starting Jedi language server for .config.
+2025-08-21 15:11:51.116 [info] Telemetry level is off
+2025-08-21 15:11:51.116 [info] Experiments are disabled, only manually opted experiments are active.
+2025-08-21 15:11:51.116 [warning] Dir "/home/winter/.config/.pixi/envs" is not watchable (directory does not exist)
+2025-08-21 15:11:51.118 [info] Python interpreter path: /run/current-system/sw/bin/python
+2025-08-21 15:11:51.225 [info] > pyenv which python
+2025-08-21 15:11:51.225 [info] cwd: .
+2025-08-21 15:11:52.601 [info] Starting Jedi language server for .config.

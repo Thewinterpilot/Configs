@@ -1,0 +1,40 @@
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 55px;
+}
+p {
+    width: 60%;
+    text-shadow: #7778d4b2;
+}
+
+body {
+    background-color: rgb(199, 255, 236);
+    width: 20%;
+    height: fit-content;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+
+
+h3 {
+    font-weight: lighter;
+}
+
+
+.returnbutton {
+  background-color: #7779d46c; /* Green */
+  border: rgb(255, 0, 0);
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  color: rgb(112, 87, 87);
+  padding: 15x 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

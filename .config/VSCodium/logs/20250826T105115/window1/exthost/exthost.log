@@ -1,0 +1,17 @@
+2025-08-26 10:51:18.740 [info] Extension host with pid 1248354 started
+2025-08-26 10:51:18.740 [info] Skipping acquiring lock for /home/winter/.config/VSCodium/User/workspaceStorage/d5c4784f6cad259aca9ddb5a0b53d02f.
+2025-08-26 10:51:18.768 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-26 10:51:18.792 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-26 10:51:18.898 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-26 10:51:18.984 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-26 10:51:19.408 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-26 10:51:19.419 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-26 10:51:19.530 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-26 10:51:19.696 [info] Eager extensions activated
+2025-08-26 10:51:19.742 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-26 10:51:19.749 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-26 10:51:19.805 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-26 10:51:19.846 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2025-08-26 10:52:56.072 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-26 10:53:07.758 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-26 10:53:07.794 [info] Extension host with pid 1248354 exiting with code 0

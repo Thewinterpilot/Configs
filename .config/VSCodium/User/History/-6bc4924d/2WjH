@@ -1,0 +1,18 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+
+added hypr, foot, wofi and waybar configs
+
+# Changes to be committed:
+#	new file:   foot/foot.ini
+#	new file:   hypr/hyprland.conf
+#	new file:   hypr/hyprpaper.conf
+#	new file:   waybar/config.jsonc
+#	new file:   waybar/style.css
+#	new file:   wofi/config
+#	new file:   wofi/style.css
+#

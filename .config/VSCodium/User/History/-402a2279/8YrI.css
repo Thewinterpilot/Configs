@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(202, 255, 255);
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-size-adjust: 60px;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+
+}
+
+button {
+    color: blueviolet;
+    background-color: antiquewhite;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+::backdrop {
+    color: bisque;
+}
