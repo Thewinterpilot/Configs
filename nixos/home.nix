@@ -24,7 +24,7 @@
 	sv = "sudo nvim";
 	svh = "sudo nvim .";
         code = "codium";
-        rs = "sudo nixos-rebuild switch && bash ~/.config/update.bash";
+        rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
         cff = "codium /etc/nixos/";
         vff = "sudo nvim /etc/nixos/";
 	hypr = "nvim ~/.config/hypr/";
