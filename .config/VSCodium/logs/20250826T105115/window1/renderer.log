@@ -1,6 +1,0 @@
-2025-08-26 10:51:17.466 [info] Started local extension host with pid 1248354.
-2025-08-26 10:51:17.497 [info] ComputeTargetPlatform: linux-x64
-2025-08-26 10:51:17.778 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
-2025-08-26 10:51:20.639 [info] Auto updating outdated extensions. eamodio.gitlens
-2025-08-26 10:51:20.738 [info] [perf] Render performance baseline is 34ms
-2025-08-26 10:53:07.798 [warning] [backup tracker] suspended, ignoring unregister event file:///home/winter/Games/.git/COMMIT_EDITMSG 

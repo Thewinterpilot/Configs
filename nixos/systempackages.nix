@@ -103,6 +103,8 @@
         blueberry           #bluetooth tool
 	bluez
 	bluez-tools
+      #git dependency
+        rPackages.askpass
     ];
 
 }

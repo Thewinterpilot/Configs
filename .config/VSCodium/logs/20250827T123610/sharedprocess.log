@@ -1,9 +1,0 @@
-2025-08-27 12:36:13.105 [info] ComputeTargetPlatform: linux-x64
-2025-08-27 12:36:13.122 [info] Marked extension as removed eamodio.gitlens-17.4.0-universal
-2025-08-27 12:36:13.123 [info] Deleted marked for removal extension from disk eamodio.gitlens /home/winter/.vscode-oss/extensions/eamodio.gitlens-17.4.0-universal
-2025-08-27 12:36:14.424 [info] ComputeTargetPlatform: linux-x64
-2025-08-27 12:36:30.158 [info] Getting Manifest... tomoki1207.pdf
-2025-08-27 12:36:31.074 [info] Installing extension: tomoki1207.pdf {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/winter/.vscode-oss/extensions/extensions.json","path":"/home/winter/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.13210","date":"2025-05-13T18:26:25.331Z"}}
-2025-08-27 12:36:34.641 [info] Extracted extension to file:///home/winter/.vscode-oss/extensions/tomoki1207.pdf-1.2.2-universal: tomoki1207.pdf
-2025-08-27 12:36:34.671 [info] Renamed to /home/winter/.vscode-oss/extensions/tomoki1207.pdf-1.2.2-universal
-2025-08-27 12:36:34.705 [info] Extension installed successfully: tomoki1207.pdf vscode-userdata:/home/winter/.vscode-oss/extensions/extensions.json

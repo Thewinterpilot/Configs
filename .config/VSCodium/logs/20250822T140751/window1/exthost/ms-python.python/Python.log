@@ -1,7 +1,0 @@
-2025-08-22 14:07:59.107 [info] Telemetry level is off
-2025-08-22 14:07:59.107 [info] Experiments are disabled, only manually opted experiments are active.
-2025-08-22 14:07:59.107 [warning] Dir "/home/winter/.config/.pixi/envs" is not watchable (directory does not exist)
-2025-08-22 14:07:59.288 [info] > pyenv which python
-2025-08-22 14:07:59.288 [info] cwd: .
-2025-08-22 14:07:59.459 [info] > /run/current-system/sw/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
-2025-08-22 14:07:59.592 [info] Python interpreter path: /run/current-system/sw/bin/python

@@ -1,8 +1,0 @@
-2025-08-26 10:51:18.541 [info] ComputeTargetPlatform: linux-x64
-2025-08-26 10:51:19.782 [info] ComputeTargetPlatform: linux-x64
-2025-08-26 10:51:21.647 [info] Getting Manifest... eamodio.gitlens
-2025-08-26 10:51:24.890 [info] Installing extension: eamodio.gitlens {"productVersion":{"version":"1.100.13210","date":"2025-05-13T18:26:25.331Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/winter/.vscode-oss/extensions/extensions.json","path":"/home/winter/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
-2025-08-26 10:51:38.479 [info] Extracted extension to file:///home/winter/.vscode-oss/extensions/eamodio.gitlens-17.4.1-universal: eamodio.gitlens
-2025-08-26 10:51:38.532 [info] Renamed to /home/winter/.vscode-oss/extensions/eamodio.gitlens-17.4.1-universal
-2025-08-26 10:51:38.588 [info] Marked extension as removed eamodio.gitlens-17.4.0-universal
-2025-08-26 10:51:38.666 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/winter/.vscode-oss/extensions/extensions.json
