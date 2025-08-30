@@ -1,10 +1,12 @@
 echo copying nixos files
-cp --update /etc/nixos/configuration.nix ~/Configs/configuration.nix
-cp --update /etc/nixos/home.nix ~/Configs/home.nix
-cp --update /etc/nixos/systempackages.nix ~/Configs/systempackages.nix
+cp --update /etc/nixos/configuration.nix ~/Configs/nixos/configuration.nix
+cp --update /etc/nixos/home.nix ~/Configs/nixos/home.nix
+cp --update /etc/nixos/systempackages.nix ~/Configs/nixos/systempackages.nix
 echo copying config files
 
-cp -r --update .config ~/Configs/
+cp -r --update .config/alacritty ~/Configs/.config/
+cp -r --update .config/folder ~/Configs/.config/
+
 
 
 echo updated files
