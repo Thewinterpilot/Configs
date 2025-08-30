@@ -1,0 +1,5 @@
+- [ ] make bluetoothctl connect on boot to ear savers
+- [ ] make music player not send notifs
+- [ ] make music player work in background
+- [ ] find tui music player
+- [ ] 
