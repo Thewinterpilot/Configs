@@ -17,7 +17,16 @@ in
       (import "${home-manager}/nixos")
     ];
 
-
+#obs studio
+environment.systemPackages = [
+  (pkgs.wrapOBS {
+    plugins = with pkgs.obs-studio-plugins; [
+      wlrobs
+      obs-backgroundremoval
+      obs-pipewire-audio-capture
+    ];
+  })
+];
 
 
 #steam
