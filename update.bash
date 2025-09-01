@@ -18,7 +18,7 @@ cp -r --update ~/.config/walker ~/Configs/.config/
 cp -r --update ~/.config/waybar ~/Configs/.config/
 
 echo pushing to git...
-
+git add -A
 git push -a
 git commit
 
