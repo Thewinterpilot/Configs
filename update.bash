@@ -17,6 +17,11 @@ cp -r --update ~/.config/hypr ~/Configs/.config/
 cp -r --update ~/.config/walker ~/Configs/.config/
 cp -r --update ~/.config/waybar ~/Configs/.config/
 
+echo pushing to git...
+
+git push -a
+git commit
+
 echo please remember to manually copy new important configs to this script update.bash
 echo please update github through codium when you make signifigant changes
 echo have a good day winter:3

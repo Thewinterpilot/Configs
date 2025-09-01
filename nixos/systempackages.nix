@@ -9,7 +9,6 @@
 
     security.polkit.enable = true; #idk permission manager thingy
 
-    
 
   ##battery life tools
 
@@ -52,8 +51,7 @@
         vesktop 	          #foss discord with vencord
       #windows app software
         bottles		          #run windows apps in "bottles"
-	      virtualbox          #virtual machine software
-      #video tools
+      #video tools 
         vlc		              #video player ive always used idk
         shotcut             #video editor
 	      libsForQt5.kdenlive #video editor 2

@@ -7,7 +7,8 @@
 
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+	"pulseaudio"
     ],
     "modules-center": [
 	    "clock"
@@ -17,8 +18,7 @@
 	"network",
         "custom/sep",
 	"battery",
-	"custom/sep",
-	"pulseaudio"
+	"custom/sep"
     ],
 
     // Modules configurationOnline
@@ -57,7 +57,7 @@
         "format": "Disk: {free}"
     },
     "battery": {
-	    "interval": 0.5,
+	"interval": 0.5,
         "states": {
             "good": 95,
             "warning": 30,
