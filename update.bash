@@ -19,8 +19,8 @@ cp -r --update ~/.config/waybar ~/Configs/.config/
 
 echo pushing to git...
 git add -A
-git push -a
-git commit
+git commit -a
+git push
 
 echo please remember to manually copy new important configs to this script update.bash
 echo please update github through codium when you make signifigant changes
