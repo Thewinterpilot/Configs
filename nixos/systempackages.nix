@@ -18,7 +18,7 @@
 
 
   ## systempackages
-    environment.systemPackages = with pkgs; [
+    users.users.winter.packages = with pkgs; [
     ## visible apps (not terminal tools or dependancies)
 
       #Text editors
@@ -51,6 +51,8 @@
         vesktop 	          #foss discord with vencord
       #windows app software
         bottles		          #run windows apps in "bottles"
+      #search utils
+        nh                  #nixos search utility
       #video tools 
         vlc		              #video player ive always used idk
         shotcut             #video editor

@@ -18,19 +18,14 @@
     programs.bash = {
       enable = true;
       shellAliases = {
-        btw = "echo I use nixos btw";
         v = "nvim";
-        vh = "nvim .";
-	sv = "sudo nvim";
-	svh = "sudo nvim .";
+	      sv = "sudo nvim";
         code = "codium";
         rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
-        cff = "codium /etc/nixos/";
-        vff = "sudo nvim /etc/nixos/";
-	hypr = "nvim ~/.config/hypr/";
-	c = "clear";
-	hy = "hyfetch";
-	chy = "clear && hyfetch";
+        nx = "codium /etc/nixos/";
+        ss = "nh search ";
+        upgrade = "sudo nixos-rebuild switch --upgrade";
+	      hypr = "nvim ~/.config/hypr/";
     };
 
   #startup message 

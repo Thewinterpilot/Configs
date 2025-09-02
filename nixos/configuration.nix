@@ -155,9 +155,7 @@ programs.steam = {
       isNormalUser = true;
       description = "winter";
       extraGroups = [ "networkmanager" "wheel" ];
-      packages = with pkgs; [
-    
-    ];
+      
   };
 
 
