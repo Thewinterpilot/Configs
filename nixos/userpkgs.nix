@@ -22,6 +22,8 @@ environment.systemPackages = [
     ];
   })
 ];
+
+
 users.users.winter2.packages = with pkgs; [
   #terminal emulator
     kitty
@@ -40,8 +42,6 @@ users.users.winter2.packages = with pkgs; [
       hyprpaper           #wallpaper utility
       hyprshot            #screenshot utility
 	    hyprlock            #lock screen utility
-    #git
-      git                 #idk its git, self explanitory
     #file explorers
       kdePackages.dolphin #gui file explorer
 	    nautilus            #gui file explorer 2

@@ -2,6 +2,7 @@
 
 {  
 
+
   ##enableing services
     programs.hyprland.enable = true;  #hyprland yk
 
@@ -9,7 +10,7 @@
 
     security.polkit.enable = true; #idk permission manager thingy
 
-
+  
   ##battery life tools
 
     services.tlp.enable = true;   #changes power modes based on whether its on battery or not
@@ -30,6 +31,8 @@
       #samba shares
           cifs-utils        #network shares terminal util
           samba		          #allows connecting to network shares
+      #git
+        git                 #github idk
       #theme changer
         themechanger        #theme changer
       #notifications
