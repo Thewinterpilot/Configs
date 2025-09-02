@@ -19,7 +19,12 @@ in
     ];
 
 
+  ##enableing services
+    programs.hyprland.enable = true;  #hyprland yk
 
+    services.displayManager.ly.enable = true;  #login manager (tui)
+
+    security.polkit.enable = true; #idk permission manager thingy
 
 
 #bluetooth

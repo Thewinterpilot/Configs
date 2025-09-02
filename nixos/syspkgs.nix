@@ -3,19 +3,11 @@
 {  
 
 
-  ##enableing services
-    programs.hyprland.enable = true;  #hyprland yk
-
-    services.displayManager.ly.enable = true;  #login manager (tui)
-
-    security.polkit.enable = true; #idk permission manager thingy
-
-  
   ##battery life tools
 
     services.tlp.enable = true;   #changes power modes based on whether its on battery or not
 
-    services.auto-cpufreq.enable = true;  #changes frequency based on things idk
+    services.auto-cpufreq.enable = true;    #changes frequency based on things idk
 
 
   ## systempackages
@@ -28,11 +20,12 @@
       lxqt.lxqt-policykit   #allows permissions for vscode sudo
       #brightness
       brightnessctl         #allows brightness keys to work
-      #samba shares
+      #net things
+        #git
+          git               #git
+        #samba shares
           cifs-utils        #network shares terminal util
           samba		          #allows connecting to network shares
-      #git
-        git                 #github idk
       #theme changer
         themechanger        #theme changer
       #notifications

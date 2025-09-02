@@ -30,6 +30,10 @@ users.users.winter2.packages = with pkgs; [
   
 ];
 
+
+  # if you want my config change this to your username
+
+  
   users.users.winter.packages = with pkgs; [
 
     #terminal
