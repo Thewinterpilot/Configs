@@ -9,11 +9,6 @@
     home.homeDirectory = "/home/winter";
     home.stateVersion = "25.05";
 
-
-
-
-
-
   #bash scripts
     programs.bash = {
       enable = true;

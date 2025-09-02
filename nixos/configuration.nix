@@ -13,29 +13,13 @@ in
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./systempackages.nix
+      ./syspkgs.nix
+      ./userpkgs.nix
       (import "${home-manager}/nixos")
     ];
 
-#obs studio
-environment.systemPackages = [
-  (pkgs.wrapOBS {
-    plugins = with pkgs.obs-studio-plugins; [
-      wlrobs
-      obs-backgroundremoval
-      obs-pipewire-audio-capture
-    ];
-  })
-];
 
 
-#steam
-programs.steam = {
-  enable = true;
-  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
-};
 
 
 #bluetooth
@@ -61,15 +45,12 @@ programs.steam = {
       };
     };
 
-  services.blueman.enable = true;
-
-
-
   #home manager things
     home-manager.useUserPackages = true;
     home-manager.useGlobalPkgs = true;
     home-manager.backupFileExtension = "backup";
     home-manager.users.winter = import ./home.nix;
+
 
   # Bootloader.
     boot.loader.systemd-boot.enable = true;
@@ -79,8 +60,6 @@ programs.steam = {
   #define hostname
     networking.hostName = "pilot";
   
-
-
   # Enable networking
     networking.networkmanager.enable = true;
   
@@ -94,6 +73,7 @@ programs.steam = {
 
   #enable flakes and nix command
     nix.settings.experimental-features = ["nix-command" "flakes" ];
+
 
   #enable the thingy for sudo permissions in vscode
     systemd = {
@@ -153,11 +133,15 @@ programs.steam = {
   # Define a user account. Don't forget to set a password with ‘passwd’.
     users.users.winter = {
       isNormalUser = true;
-      description = "winter";
+      description = "Main user";
       extraGroups = [ "networkmanager" "wheel" ];
       
   };
-
+  users.users.winter2 = {
+    isNormalUser = true;
+    description = "secondary user for testing";
+    extraGroups = [ "networkmanager" "wheel" ];
+  };
 
 
  # Power button invokes suspend, not shutdown.

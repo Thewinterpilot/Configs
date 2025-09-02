@@ -1,7 +1,8 @@
 echo copying nixos config files...
 cp --update /etc/nixos/configuration.nix ~/Configs/nixos/configuration.nix
 cp --update /etc/nixos/home.nix ~/Configs/nixos/home.nix
-cp --update /etc/nixos/systempackages.nix ~/Configs/nixos/systempackages.nix
+cp --update /etc/nixos/syspkgs.nix ~/Configs/nixos/syspkgs.nix
+cp --update /etc/nixos/userpkgs.nix ~/Configs/nixos/userpkgs.nix
 
 
 echo copying .config files...
