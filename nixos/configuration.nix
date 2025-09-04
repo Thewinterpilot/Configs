@@ -142,11 +142,11 @@ in
       extraGroups = [ "networkmanager" "wheel" ];
       
   };
-  users.users.winter2 = {
-    isNormalUser = true;
-    description = "secondary user for testing";
-    extraGroups = [ "networkmanager" "wheel" ];
-  };
+#  users.users.winter2 = {
+#    isNormalUser = true;
+#    description = "secondary user for testing";
+#    extraGroups = [ "networkmanager" "wheel" ];
+#  };
 
 
  # Power button invokes suspend, not shutdown.
