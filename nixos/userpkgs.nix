@@ -37,26 +37,23 @@ environment.systemPackages = [
   users.users.winter.packages = with pkgs; [
 
     ## terminal tools
-	    alacritty           #allows what I need with easy syntax
       foot                #considering switching
         #printer
           bat             #cat clone with syntax highlighting
         #tui fileman
           yazi            #terminal file explorer
-        #spec fetching utils
-          hyfetch		      #shows basic pc spec overlay
-          cpufetch	      #shows cpu spec overlay
-          fastfetch       #needed for hyfetch
-          btop		        #shows cpu/gpu/ram usage and list of running applications
-        #search utils
-           nh             #nixos search utility
-        #python3
+          ##spec fetching utils
+            hyfetch		      #shows basic pc spec overlay
+            cpufetch	      #shows cpu spec overlay
+            fastfetch       #needed for hyfetch
+            btop		        #shows cpu/gpu/ram usage and list of running applications
+          ##other terminal tools
+          nh             #nixos search utility
           python3         #python
-        #tldr
           tldr            #shows tldr of a commands manpage
     #browser
       librewolf           #private secure browser w customisation
-    #hyprland specific things
+    ##hyprland specific things
       waybar              #bar
 	    walker              #app launcher
       hyprpaper           #wallpaper utility
@@ -67,7 +64,7 @@ environment.systemPackages = [
 	    nautilus            #gui file explorer 2
     #discord
       vesktop 	          #foss discord with vencord
-    #windows app software
+     #windows app software
       bottles		          #run windows apps in "bottles"
     #video tools 
       vlc		              #video player ive always used idk
@@ -77,6 +74,8 @@ environment.systemPackages = [
       qbittorrent         #torrent things
     #note apps
 	    obsidian            #markdown notes locally
+    #calendar
+      morgen              #calendar app with good looking dark theme
     #mc
       prismlauncher       #customisable minecraft client with easy mod support 
     #music player
