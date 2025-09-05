@@ -47,18 +47,20 @@ environment.systemPackages = [
             cpufetch	      #shows cpu spec overlay
             fastfetch       #needed for hyfetch
             btop		        #shows cpu/gpu/ram usage and list of running applications
+          ##hyprland specific things
+            waybar              #bar
+	          walker              #app launcher
+            hyprpaper           #wallpaper utility
+            hyprshot            #screenshot utility
+	          hyprlock            #lock screen utility
           ##other terminal tools
-          nh             #nixos search utility
+          tree            #file tree tool
+          nh              #nixos search utility
           python3         #python
           tldr            #shows tldr of a commands manpage
     #browser
       librewolf           #private secure browser w customisation
-    ##hyprland specific things
-      waybar              #bar
-	    walker              #app launcher
-      hyprpaper           #wallpaper utility
-      hyprshot            #screenshot utility
-	    hyprlock            #lock screen utility
+
     #file explorers
       kdePackages.dolphin #gui file explorer
 	    nautilus            #gui file explorer 2
