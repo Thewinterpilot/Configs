@@ -10,7 +10,7 @@ cp --update ~/.config/hyfetch.json ~/Configs/.config/
 
 
 echo copying .config folders...
-cp -r --update ~/.config/alacritty ~/Configs/.config/
+cp -r --update ~/.config/foot ~/Configs/.config/
 cp -r --update ~/.config/dunst ~/Configs/.config/
 cp -r --update ~/.config/gtk-3.0 ~/Configs/.config/
 cp -r --update ~/.config/gtk-4.0 ~/Configs/.config/
