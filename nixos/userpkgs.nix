@@ -38,6 +38,7 @@ environment.systemPackages = [
 
     ## terminal tools
 	    alacritty           #allows what I need with easy syntax
+      foot                #considering switching
         #printer
           bat             #cat clone with syntax highlighting
         #tui fileman
