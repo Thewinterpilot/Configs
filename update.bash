@@ -3,7 +3,8 @@ cp --update /etc/nixos/configuration.nix ~/Configs/nixos/configuration.nix
 cp --update /etc/nixos/home.nix ~/Configs/nixos/home.nix
 cp --update /etc/nixos/syspkgs.nix ~/Configs/nixos/syspkgs.nix
 cp --update /etc/nixos/userpkgs.nix ~/Configs/nixos/userpkgs.nix
-
+cp --update /etc/nixos/flake.nix ~/Configs/nixos/flake.nix
+cp --update /etc/nixos/flake.lock ~/Configs/nixos/flake.lock
 
 echo copying .config files...
 cp --update ~/.config/hyfetch.json ~/Configs/.config/
