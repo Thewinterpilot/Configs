@@ -4,31 +4,24 @@
 
 
 
-  #steam
-programs.steam = {
-  enable = true;
-  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
-};
+#   #steam
+# programs.steam = {
+#   enable = true;
+#   remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+#   dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+#   localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
+# };
 
-#obs studio
-environment.systemPackages = [
-  (pkgs.wrapOBS {
-    plugins = with pkgs.obs-studio-plugins; [
-      wlrobs
-      obs-backgroundremoval
-      obs-pipewire-audio-capture
-    ];
-  })
-];
-
-
-#users.users.winter2.packages = with pkgs; [
-#  #terminal emulator
-#    kitty
-#  
-#];
+# #obs studio
+# environment.systemPackages = [
+#   (pkgs.wrapOBS {
+#     plugins = with pkgs.obs-studio-plugins; [
+#       wlrobs
+#       obs-backgroundremoval
+#       obs-pipewire-audio-capture
+#     ];
+#   })
+# ];
 
 
   # if you want my config change this to your username
@@ -37,57 +30,50 @@ environment.systemPackages = [
   users.users.winter.packages = 
   (with pkgs; [
 
-    ## terminal tools
-      foot                #decent terminal
-        #printer
-          bat             #cat clone with syntax highlighting
+    ## terminal & cli tools
+      foot
         #tui fileman
           yazi            #terminal file explorer
           ##spec fetching utils
             hyfetch		      #shows basic pc spec overlay
-            cpufetch	      #shows cpu spec overlay
-            fastfetch       #needed for hyfetch
+              fastfetch       #needed for hyfetch
+              cpufetch	      #shows cpu spec overlay
             btop		        #shows cpu/gpu/ram usage and list of running applications
           ##hyprland specific things
-            waybar              #bar
-	          walker              #app launcher
-            hyprpaper           #wallpaper utility
-	          hyprlock            #lock screen utility
-          ##other terminal tools
-          tree            #file tree tool
-          nh              #nixos search utility
-          python3         #python
-          parted           #useful for resizing disks
+            waybar          #bar
+	          walker          #app launcher
+            hyprpaper       #wallpaper utility
+	          hyprlock        #lock screen utility
+          ##other cli tools
+            tree            #show file trees
+            nh              #nixos search utility
+            python3
+            parted          #useful for resizing disks
     
 
     #file explorers
-      kdePackages.dolphin #gui file explorer
-	    nautilus            #gui file explorer 2
+      kdePackages.dolphin
+	    nautilus
     #discord
-      vesktop 	          #foss discord with vencord
-     #windows app software
-      bottles		          #run windows apps in "bottles"
-    #video tools 
-      vlc		              #video player ive always used idk
-      shotcut             #video editor
-	    libsForQt5.kdenlive #video editor 2
-    #qbittorrent
-      qbittorrent         #torrent things
-    #note apps
-	    obsidian            #markdown notes locally
+      vesktop
+    #video player
+      vlc
+    #video editor
+      davinci-resolve
+    #torrent app for legal downloads
+      qbittorrent
     #calendar
-      morgen              #calendar app with good looking dark theme
-    #mc
-      prismlauncher       #customisable minecraft client with easy mod support 
+      morgen
+    #customisable minecraft client with easy mod support 
+      prismlauncher
     #music player
-	    museeks             #local gui music player
+	    museeks
     #game engine
-      godot               #simple 2d/3d game engine
-     #cloud things
-	    onedriver           #connect to onedrive
-    #bluetooth
-      blueberry           #gui bluetooth tool
-
+      godot
+    #bluetooth tool
+      blueberry
+    #notes
+      obsidian
 
     ])
 
@@ -95,10 +81,12 @@ environment.systemPackages = [
 
 
     (with pkgs-unstable; [
-    emacs
+    
     #browser
       librewolf
     #screenshot tool
       grimblast
+
+
     ]);
 }

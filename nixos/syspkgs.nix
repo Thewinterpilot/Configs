@@ -2,41 +2,46 @@
 
 {  
 
-
   ##battery life tools
-
-    services.tlp.enable = true;   #changes power modes based on whether its on battery or not
-
-    services.auto-cpufreq.enable = true;    #changes frequency based on things idk
+    services.tlp.enable = true;
+    services.auto-cpufreq.enable = true;
 
 
   ## systempackages
-    environment.systemPackages = with pkgs; [
+    environment.systemPackages = (with pkgs; [
 
-      #Text editors
-        vim              #terminal text editor
-        vscodium            #gui IDE
-      #vscodium
-      lxqt.lxqt-policykit   #allows permissions for vscode sudo
-      #brightness
-      brightnessctl         #allows brightness keys to work
+      #vscodium permission tool ig
+        lxqt.lxqt-policykit
+      #brightness tool for brightness keys
+        brightnessctl
       #net things
-        #git
-          git               #git
-        #samba shares
-          cifs-utils        #network shares terminal util
-          samba		          #allows connecting to network shares
+        #samba shares things for my nas
+          cifs-utils
+          samba
+        #onedrive
+          onedriver
       #theme changer
-        themechanger        #theme changer
+        themechanger
       #notifications
-        dunst               #notification deamon
-	      libnotify           #apperently important for dunst
+        dunst
+	      libnotify
       #killall command
-        killall             #used for the toggling of waybar
+        killall
       #ark
-        kdePackages.ark     #zip and unzip files
+        kdePackages.ark
 
+    ])
 
-    ];
+    ++
+
+    (with pkgs-unstable; [
+      #git
+        git
+      #Text editors
+        vim
+        vscodium
+
+      
+    ]);
 
 }

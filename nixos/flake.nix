@@ -1,5 +1,5 @@
 {
-  description = "My first flake!";
+  description = "allows for use of both nixos stable and unstable packages along with home-manager";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-25.05";
@@ -9,6 +9,7 @@
   };
 
   outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, ... }:
+
     let
       system = "x86_64-linux";
       lib = nixpkgs.lib;
@@ -18,6 +19,7 @@
       name = "winter";
     in {
       nixosConfigurations = {
+        
         pilot = lib.nixosSystem {
           inherit system;
           modules = [ ./configuration.nix ];
