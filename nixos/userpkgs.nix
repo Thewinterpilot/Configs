@@ -50,7 +50,8 @@
             python3
             parted          #useful for resizing disks
     
-
+    #browser
+      librewolf
     #file explorers
       kdePackages.dolphin
 	    nautilus
@@ -58,8 +59,6 @@
       vesktop
     #video player
       vlc
-    #video editor
-      davinci-resolve
     #torrent app for legal downloads
       qbittorrent
     #calendar
@@ -82,8 +81,7 @@
 
     (with pkgs-unstable; [
     
-    #browser
-      librewolf
+
     #screenshot tool
       grimblast
 
