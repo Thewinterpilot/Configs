@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-unstable, ... }:
 
 {
 
@@ -34,7 +34,8 @@ environment.systemPackages = [
   # if you want my config change this to your username
 
   
-  users.users.winter.packages = with pkgs; [
+  users.users.winter.packages = 
+  (with pkgs; [
 
     ## terminal tools
       foot                #decent terminal
@@ -91,5 +92,13 @@ environment.systemPackages = [
     #bluetooth
       blueberry           #gui bluetooth tool
 
-    ];
+
+    ])
+
+    ++
+
+
+    (with pkgs-unstable; [
+    vim
+    ]);
 }
