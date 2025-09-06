@@ -37,7 +37,7 @@ environment.systemPackages = [
   users.users.winter.packages = with pkgs; [
 
     ## terminal tools
-      foot                #considering switching
+      foot                #decent terminal
         #printer
           bat             #cat clone with syntax highlighting
         #tui fileman
@@ -57,7 +57,7 @@ environment.systemPackages = [
           tree            #file tree tool
           nh              #nixos search utility
           python3         #python
-          tldr            #shows tldr of a commands manpage
+          parted           #useful for resizing disks
     #browser
       librewolf           #private secure browser w customisation
 
