@@ -13,14 +13,14 @@
     programs.bash = {
       enable = true;
       shellAliases = {
-        v = "nvim";
-	      sv = "sudo nvim";
+        v = "vim";
+	      sv = "sudo vim";
         code = "codium";
         rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
         nx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
-	      hypr = "nvim ~/.config/hypr/";
+	      hypr = "vim ~/.config/hypr/";
     };
 
   #startup message 

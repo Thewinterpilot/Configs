@@ -1,4 +1,4 @@
-{ config, pkgs, ...}:
+{ config, pkgs, pkgs-unstable, ...}:
 
 {  
 
@@ -14,7 +14,7 @@
     environment.systemPackages = with pkgs; [
 
       #Text editors
-        neovim              #terminal text editor
+        vim              #terminal text editor
         vscodium            #gui IDE
       #vscodium
       lxqt.lxqt-policykit   #allows permissions for vscode sudo

@@ -52,15 +52,13 @@ environment.systemPackages = [
             waybar              #bar
 	          walker              #app launcher
             hyprpaper           #wallpaper utility
-            hyprshot            #screenshot utility
 	          hyprlock            #lock screen utility
           ##other terminal tools
           tree            #file tree tool
           nh              #nixos search utility
           python3         #python
           parted           #useful for resizing disks
-    #browser
-      librewolf           #private secure browser w customisation
+    
 
     #file explorers
       kdePackages.dolphin #gui file explorer
@@ -87,8 +85,6 @@ environment.systemPackages = [
       godot               #simple 2d/3d game engine
      #cloud things
 	    onedriver           #connect to onedrive
-    #screenshot
-	    grimblast           #screenshot manager
     #bluetooth
       blueberry           #gui bluetooth tool
 
@@ -99,6 +95,10 @@ environment.systemPackages = [
 
 
     (with pkgs-unstable; [
-    vim
+    emacs
+    #browser
+      librewolf
+    #screenshot tool
+      grimblast
     ]);
 }
