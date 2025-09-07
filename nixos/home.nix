@@ -15,7 +15,7 @@
       enable = true;
       shellAliases = {
         
-        v = "vim";
+        vc = "vim";
 	      sv = "sudo vim";
         code = "codium";
         rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
