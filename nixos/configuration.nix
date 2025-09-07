@@ -69,7 +69,7 @@ in
   #Enable networking
     networking.networkmanager.enable = true;
 
-    networking.hostName = "pilot";
+    networking.hostName = "FMS";
 
   #auto clean
     system.autoUpgrade.enable = true;
