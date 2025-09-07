@@ -8,16 +8,18 @@
     home.username = "winter";
     home.homeDirectory = "/home/winter";
     home.stateVersion = "25.05";
+    programs.home-manager.enable = true;
 
   #bash scripts
     programs.bash = {
       enable = true;
       shellAliases = {
+        
         v = "vim";
 	      sv = "sudo vim";
         code = "codium";
         rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
-        nvx = "codium /etc/nixos/";
+        nx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";

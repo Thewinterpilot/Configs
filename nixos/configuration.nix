@@ -1,7 +1,8 @@
 { config, lib, pkgs, ... }:
 
- 
-
+let 
+  # home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-25.05.tar.gz";
+in 
 
 {
   imports =
@@ -9,14 +10,20 @@
       ./hardware-configuration.nix
       ./syspkgs.nix
       ./userpkgs.nix
-      
+      # (import "${home-manager}/nixos")
     ];
 
+  #home manager things
+    # home-manager.useUserPackages = true;
+    # home-manager.useGlobalPkgs = true;
+    # home-manager.backupFileExtension = "backup";
+    # home-manager.users.winter = import ./home.nix;
 
   #enabling services
     programs.hyprland.enable = true;
 
     services.displayManager.ly.enable = true;
+
 
 
   #enable the polkit for sudo permissions in vscode

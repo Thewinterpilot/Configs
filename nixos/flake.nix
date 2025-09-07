@@ -19,6 +19,7 @@
       name = "winter";
     in {
       nixosConfigurations = {
+        
         pilot = lib.nixosSystem {
           inherit system;
           modules = [ ./configuration.nix ];
@@ -32,7 +33,7 @@
       homeConfigurations = {
         winter = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
-          modules = [ /etc/nixos/home.nix ];
+          modules = [ ./home.nix ];
           extraSpecialArgs = {
             inherit username;
             inherit name;
@@ -42,4 +43,3 @@
       };
     };
 }
-

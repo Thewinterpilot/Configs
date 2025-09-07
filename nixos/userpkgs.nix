@@ -29,7 +29,7 @@
   
   users.users.winter.packages = 
   (with pkgs; [
-
+home-manager
     ## terminal & cli tools
       foot
         #tui fileman
@@ -48,9 +48,7 @@
             tree            #show file trees
             nh              #nixos search utility
             python3
-            parted          #useful for resizing disks
-            home-manager
-    
+            parted          #useful for resizing disks    
     #browser
       librewolf
     #file explorers
@@ -74,6 +72,8 @@
       blueberry
     #notes
       obsidian
+    #screenshot tool
+      grimblast
 
     ])
 
@@ -83,8 +83,6 @@
     (with pkgs-unstable; [
     
 
-    #screenshot tool
-      grimblast
 
 
     ]);
