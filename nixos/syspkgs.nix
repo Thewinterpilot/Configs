@@ -35,12 +35,7 @@
         vim
         vscodium
 
-    # ])
-
-    # ++
-
-    # (with pkgs-unstable; [
-
+   
       
     ]);
 

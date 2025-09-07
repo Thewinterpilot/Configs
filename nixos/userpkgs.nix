@@ -75,14 +75,7 @@ home-manager
     #screenshot tool
       grimblast
 
-    # ])
-
-    # ++
-
-
-    # (with pkgs-unstable; [
-    
-
+  
 
 
     ]);
