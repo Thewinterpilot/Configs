@@ -1,4 +1,4 @@
-{ config, pkgs, pkgs-unstable, ...}:
+{ config, pkgs, ...}:
 
 {  
 
@@ -29,17 +29,17 @@
         killall
       #ark
         kdePackages.ark
-
-    ])
-
-    ++
-
-    (with pkgs-unstable; [
       #git
         git
       #Text editors
         vim
         vscodium
+
+    # ])
+
+    # ++
+
+    # (with pkgs-unstable; [
 
       
     ]);

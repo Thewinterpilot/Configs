@@ -1,11 +1,11 @@
-{ config, pkgs, pkgs-unstable, ... }:
+{ config, pkgs, ... }:
 
 
 {
 
 
   #usernames setup
-    home.username = "pilot";
+    home.username = "winter";
     home.homeDirectory = "/home/winter";
     home.stateVersion = "25.05";
     programs.home-manager.enable = true;
@@ -23,7 +23,7 @@
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";
-        nix = "cd /etc/nixos/";
+        nexs = "cd /etc/nixos/";
     };
 
   #startup message 

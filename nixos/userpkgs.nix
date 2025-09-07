@@ -1,4 +1,4 @@
-{ config, pkgs, pkgs-unstable, ... }:
+{ config, pkgs, ... }:
 
 {
 
@@ -75,12 +75,12 @@ home-manager
     #screenshot tool
       grimblast
 
-    ])
+    # ])
 
-    ++
+    # ++
 
 
-    (with pkgs-unstable; [
+    # (with pkgs-unstable; [
     
 
 
