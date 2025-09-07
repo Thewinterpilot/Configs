@@ -5,7 +5,7 @@
 
 
   #usernames setup
-    home.username = "winter";
+    home.username = "pilot";
     home.homeDirectory = "/home/winter";
     home.stateVersion = "25.05";
     programs.home-manager.enable = true;
@@ -23,6 +23,7 @@
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";
+        nix = "cd /etc/nixos/"
     };
 
   #startup message 
