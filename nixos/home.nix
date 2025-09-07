@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-unstable, ... }:
 
 
 {
@@ -17,7 +17,7 @@
 	      sv = "sudo vim";
         code = "codium";
         rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
-        nx = "codium /etc/nixos/";
+        nvx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";

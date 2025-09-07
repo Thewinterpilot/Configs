@@ -32,7 +32,7 @@
       homeConfigurations = {
         winter = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
-          modules = [ ./home.nix ];
+          modules = [ /etc/nixos/home.nix ];
           extraSpecialArgs = {
             inherit username;
             inherit name;
