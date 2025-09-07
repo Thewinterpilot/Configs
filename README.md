@@ -1,9 +1,11 @@
 # README
 
 This is my personal nixos config that is only public because its slightly easier that way so 
-**This very well may be unstable or not completely functional**
+**I will attempt to keep the main branch stable but the working branch can be considered unstable and very well may be completely nonfunctional**
 
 a lot of the configs are just modifications [tonybanters' hyprland-btw](https://github.com/tonybanters/hyprland-btw) configuration
+
+
 
 
 #### Things I'm using & why
