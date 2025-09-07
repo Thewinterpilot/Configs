@@ -23,7 +23,7 @@
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";
-        nexs = "cd /etc/nixos/";
+        nd = "cd /etc/nixos/";
     };
 
   #startup message 
