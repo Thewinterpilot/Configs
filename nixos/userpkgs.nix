@@ -48,7 +48,8 @@ home-manager
             tree            #show file trees
             nh              #nixos search utility
             python3
-            parted          #useful for resizing disks    
+            parted          #useful for resizing disks
+	    catgirl         #dont ask
     #browser
       librewolf
     #file explorers
