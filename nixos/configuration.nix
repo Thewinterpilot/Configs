@@ -9,6 +9,7 @@
       ./hardware-configuration.nix
       ./syspkgs.nix
       ./userpkgs.nix
+      
     ];
 
 
@@ -16,7 +17,6 @@
     programs.hyprland.enable = true;
 
     services.displayManager.ly.enable = true;
-
 
 
   #enable the polkit for sudo permissions in vscode
