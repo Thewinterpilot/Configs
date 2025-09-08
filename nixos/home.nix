@@ -24,7 +24,7 @@
         upgrade = "sudo nixos-rebuild switch --upgrade";
 	      hypr = "vim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "vim /etc/nixos/";
+        vnx = "sudo vim /etc/nixos/";
     };
 
   #startup message 
