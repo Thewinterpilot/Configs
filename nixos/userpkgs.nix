@@ -60,6 +60,8 @@ home-manager
       vesktop
     #video player
       vlc
+    #3d modeling
+      dune3d
     #torrent app for legal downloads
       qbittorrent
     #calendar
