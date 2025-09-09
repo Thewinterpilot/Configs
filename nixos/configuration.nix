@@ -144,6 +144,8 @@ in
       ];
     };
 
+services.onedrive.enable = true;
+
 
   #samba shares (windows network drives)
     services.gvfs = {
