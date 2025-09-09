@@ -144,7 +144,7 @@ in
       ];
     };
 
-services.onedrive.enable = true;
+services.onedrive.enable = false;
 
 
   #samba shares (windows network drives)
