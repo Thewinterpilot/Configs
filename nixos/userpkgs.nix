@@ -38,6 +38,7 @@ home-manager
             hyfetch		      #shows basic pc spec overlay
               fastfetch       #needed for hyfetch
               cpufetch	      #shows cpu spec overlay
+	      nitch           #search util
             btop		        #shows cpu/gpu/ram usage and list of running applications
           ##hyprland specific things
             waybar          #bar

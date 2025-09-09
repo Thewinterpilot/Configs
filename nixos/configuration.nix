@@ -1,5 +1,7 @@
 { config, lib, pkgs, ... }:
 
+
+#this is not generally considered the best way to use home manager but hey, it works.
 let 
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-25.05.tar.gz";
 in 
@@ -20,8 +22,9 @@ in
     home-manager.users.winter = import ./home.nix;
 
   #enabling services
+    #hyprland is a tiling window manager and wayland compositor
     programs.hyprland.enable = true;
-
+    #ly is a simple, tui display manager with a minimal login screen look
     services.displayManager.ly.enable = true;
 
 
@@ -30,7 +33,7 @@ in
       security.polkit.enable = true;
     systemd = {
     user.services.polkit-gnome-authentication-agent-1 = {
-      description = "polkit-gnome-authentication-agent-1";
+      description = "polkit is a permission management toolkit that vscode uses";
       wantedBy = [ "graphical-session.target" ];
       wants = [ "graphical-session.target" ];
       after = [ "graphical-session.target" ];
@@ -99,7 +102,7 @@ in
     };
 
   #Enable CUPS to print documents.
-    services.printing.enable = true;
+  #  services.printing.enable = true;
 
   #Enable sound with pipewire.
     services.pulseaudio.enable = false;
@@ -117,7 +120,7 @@ in
   #user
     users.users.winter = {
       isNormalUser = true;
-      description = "Main user";
+      description = "main user";
       extraGroups = [ "networkmanager" "wheel" ];
       
   };
@@ -126,8 +129,8 @@ in
 
  #Power button invokes hibernate, not shutdown.
     services.logind = {
-    extraConfig = "HandlePowerKey=hibernate";
-    lidSwitch = "hibernate";
+    extraConfig = "HandlePowerKey=sleep";
+    lidSwitch = "sleep";
 }; 
 
 
@@ -141,25 +144,19 @@ in
       ];
     };
 
+services.onedrive.enable = false;
 
-  #samba
+
+  #samba shares (windows network drives)
     services.gvfs = {
       enable = true;
     };
   
     networking.firewall.extraCommands = ''iptables -t raw -A OUTPUT -p udp -m udp --dport 137 -j CT --helper netbios-ns    '';
-
-   networking.firewall.allowedTCPPorts = [ 455 139 138 127 ];
+  #allowing network ports for samba shares
+    networking.firewall.allowedTCPPorts = [ 455 139 138 127 ];
  
+  #dont change this when you update
     system.stateVersion = "25.05";
-
-
-
-
-
-
-
-
-
 
 }

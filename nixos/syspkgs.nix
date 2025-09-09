@@ -35,8 +35,6 @@
         vim
         vscodium
 
-   
-      
     ]);
 
 }
