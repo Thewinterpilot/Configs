@@ -50,7 +50,7 @@ home-manager
             nh              #nixos search utility
             python3
             parted          #useful for resizing disks
-	    catgirl         #dont ask
+	    cowsay          #dont ask
     #browser
       librewolf
     #file explorers
