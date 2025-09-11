@@ -27,7 +27,6 @@ in
     #ly is a simple, tui display manager with a minimal login screen look
     services.displayManager.ly.enable = true;
 
-    services.xserver.windowManager.dwm.package.enable = true;
 
   #enable the polkit for sudo permissions in vscode
       security.polkit.enable = true;
