@@ -135,6 +135,7 @@ in
 
   #set up nerdfonts
 
+
     fonts = {
       packages = [
         pkgs.nerd-fonts.bigblue-terminal
@@ -142,8 +143,6 @@ in
       
       ];
     };
-
-services.onedrive.enable = false;
 
 
   #samba shares (windows network drives)
