@@ -28,7 +28,6 @@ in
     services.displayManager.ly.enable = true;
 
 
-
   #enable the polkit for sudo permissions in vscode
       security.polkit.enable = true;
     systemd = {
@@ -136,6 +135,7 @@ in
 
   #set up nerdfonts
 
+
     fonts = {
       packages = [
         pkgs.nerd-fonts.bigblue-terminal
@@ -143,8 +143,6 @@ in
       
       ];
     };
-
-services.onedrive.enable = false;
 
 
   #samba shares (windows network drives)

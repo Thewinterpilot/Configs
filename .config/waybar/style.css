@@ -53,7 +53,6 @@ button:hover {
 #battery,
 #cpu,
 #memory,
-#pulseaudio,
 #disk,
 #network,
 #tray {
@@ -61,8 +60,10 @@ button:hover {
     color: @white;
 }
 
+
+
 #custom-sep {
-    color: @brblk;
+    color: @white;
 }
 
 #clock {
@@ -93,6 +94,11 @@ button:hover {
 #network {
     color: @blu;
     border-bottom: 4px solid @blu;
+}
+
+#pulseaudio {
+	color: @mag;
+	border-bottom: 4px solid @mag;
 }
 
 #network.disconnected {

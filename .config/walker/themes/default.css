@@ -1,8 +1,23 @@
-/* AUTO GENERATED. DO NOT EDIT. CHANGES WILL BE OVERWRITTEN. */
+@define-color foreground #bdd9e0;
+@define-color background #0b0b11;
+@define-color cursor #bdd9e0;
 
-@define-color foreground rgba(255, 255, 255, 0.8);
-@define-color background hsla(240, 12.7%, 13.9%, 0.98);
-@define-color color1 hsl(172, 100%, 25.3%);
+@define-color color0 #0b0b11;
+@define-color color1 #536E8E;
+@define-color color2 #5D7BA5;
+@define-color color3 #6587AE;
+@define-color color4 #6A91A9;
+@define-color color5 #82B1BE;
+@define-color color6 #86BDCC;
+@define-color color7 #bdd9e0;
+@define-color color8 #84979c;
+@define-color color9 #536E8E;
+@define-color color10 #5D7BA5;
+@define-color color11 #6587AE;
+@define-color color12 #6A91A9;
+@define-color color13 #82B1BE;
+@define-color color14 #86BDCC;
+@define-color color15 #bdd9e0;
 /* AUTO GENERATED. DO NOT EDIT. CHANGES WILL BE OVERWRITTEN. */
 
 #window,

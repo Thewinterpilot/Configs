@@ -7,8 +7,8 @@
 
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-	"pulseaudio"
+    "custom/sep",
+	"battery"
     ],
     "modules-center": [
 	    "clock"
@@ -17,7 +17,7 @@
     "modules-right": [
 	"network",
         "custom/sep",
-	"battery",
+	"pulseaudio",
 	"custom/sep"
     ],
 
@@ -70,7 +70,7 @@
         "format-icons": ["", "", "", "", ""]
     },
   "pulseaudio": {
-    "format": "{volume}% {icon}",
+    "format": "{volume}%",
     "format-muted": " {format_source}",
     "format-icons": {
       "default": [
@@ -78,18 +78,13 @@
         ""
       ]
     }
-  },
+   },
     "network": {
-    "format": ":)",
-    "format-ethernet": ":]",
-    "format-disconnected": " ",
-    "tooltip-format": " {ifname} via {gwaddr}",
-    "tooltip-format-ethernet": " {ifname} {ipaddr}/{cidr}",
-    "tooltip-format-disconnected": ":(",
-    "max-length": 50
-  },
+        "format": "Online",
+        "format-disconnected": "Disconnected ⚠"
+    },
     "custom/sep": {
         "format" : "|",
-        "interval" : 0
+        "interval": 0
     }
 }

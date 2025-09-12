@@ -38,19 +38,28 @@ home-manager
             hyfetch		      #shows basic pc spec overlay
               fastfetch       #needed for hyfetch
               cpufetch	      #shows cpu spec overlay
-	      nitch           #search util
-            btop		        #shows cpu/gpu/ram usage and list of running applications
+	            nitch           #search util
+              btop		        #shows cpu/gpu/ram usage and list of running applications
           ##hyprland specific things
-            waybar          #bar
+            waybar          #decent bar
 	          walker          #app launcher
             hyprpaper       #wallpaper utility
 	          hyprlock        #lock screen utility
+            hyprpanel       #panel for hyprland
+            #hyprpanel dependencies
+              pywal
+              wf-recorder
+              hyprsunset
+              matugen
+              swww
+              upower
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
             python3
             parted          #useful for resizing disks
-	    catgirl         #dont ask
+            cowsay          #dont ask
+
     #browser
       librewolf
     #file explorers
