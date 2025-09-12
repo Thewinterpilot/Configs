@@ -45,14 +45,14 @@ home-manager
 	          walker          #app launcher
             hyprpaper       #wallpaper utility
 	          hyprlock        #lock screen utility
+            hyprpanel
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
             python3
             parted          #useful for resizing disks
             cowsay          #dont ask
-            ags
-            meson 
+
     #browser
       librewolf
     #file explorers
