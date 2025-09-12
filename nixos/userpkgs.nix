@@ -51,6 +51,7 @@ home-manager
             python3
             parted          #useful for resizing disks
             cowsay          #dont ask
+            ags
             meson 
     #browser
       librewolf
