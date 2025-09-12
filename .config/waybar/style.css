@@ -60,8 +60,10 @@ button:hover {
     color: @white;
 }
 
+
+
 #custom-sep {
-    color: @brblk;
+    color: @white;
 }
 
 #clock {
@@ -95,8 +97,8 @@ button:hover {
 }
 
 #pulseaudio {
-	color: @blu;
-
+	color: @mag;
+	border-bottom: 4px solid @mag;
 }
 
 #network.disconnected {
