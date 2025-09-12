@@ -51,6 +51,7 @@ home-manager
               hyprsunset
               matugen
               swww
+              upower
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility

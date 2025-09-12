@@ -21,7 +21,8 @@
       ],
       "right": [
         "bluetooth",
-        "systray"
+        "systray",
+        "battery"
       ]
     },
     "1": {
@@ -67,7 +68,7 @@
   "menus.clock.weather.enabled": false,
   "menus.dashboard.powermenu.confirmation": false,
   "menus.dashboard.stats.enabled": false,
-  "menus.dashboard.shortcuts.enabled": false,
+  "menus.dashboard.shortcuts.enabled": true,
   "menus.transition": "crossfade",
   "tear": true,
   "terminal": "foot",
@@ -487,5 +488,19 @@
   "theme.bar.buttons.modules.worldclock.background": "#272a3d",
   "theme.bar.buttons.modules.worldclock.icon_background": "#9d7cd8",
   "theme.bar.buttons.modules.worldclock.icon": "#9d7cd8",
-  "theme.bar.buttons.modules.worldclock.border": "#9d7cd8"
+  "theme.bar.buttons.modules.worldclock.border": "#9d7cd8",
+  "menus.dashboard.directories.enabled": false,
+  "menus.dashboard.shortcuts.left.shortcut1.command": "librewolf",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "libre",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "browser",
+  "menus.dashboard.shortcuts.left.shortcut2.icon": "Foot",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "foot",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Foot",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "walker",
+  "menus.dashboard.shortcuts.left.shortcut3.icon": "Discord",
+  "menus.dashboard.shortcuts.left.shortcut4.icon": "Search",
+  "bar.battery.hideLabelWhenFull": false,
+  "theme.bar.floating": true,
+  "theme.bar.menus.opacity": 100
 }
