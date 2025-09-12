@@ -67,8 +67,10 @@ home-manager
 	    nautilus
     #discord
       vesktop
-    #video player
+    #video
       vlc
+      shotcut
+      kdePackages.kdenlive
     #torrent app for legal downloads
       qbittorrent
     #calendar
