@@ -502,5 +502,8 @@
   "menus.dashboard.shortcuts.left.shortcut4.icon": "Search",
   "bar.battery.hideLabelWhenFull": false,
   "theme.bar.floating": true,
-  "theme.bar.menus.opacity": 100
+  "theme.bar.menus.opacity": 100,
+  "bar.battery.label": true,
+  "theme.bar.buttons.battery.enableBorder": false,
+  "theme.bar.buttons.systray.enableBorder": false
 }

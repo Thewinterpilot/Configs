@@ -41,6 +41,7 @@ home-manager
 	            nitch           #search util
               btop		        #shows cpu/gpu/ram usage and list of running applications
           ##hyprland specific things
+            waybar          #decent bar
 	          walker          #app launcher
             hyprpaper       #wallpaper utility
 	          hyprlock        #lock screen utility
