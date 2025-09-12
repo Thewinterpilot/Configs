@@ -50,8 +50,8 @@ home-manager
             nh              #nixos search utility
             python3
             parted          #useful for resizing disks
-	    cowsay          #dont ask
-	    hyprpanel       #bar maybe
+            cowsay          #dont ask
+            meson 
     #browser
       librewolf
     #file explorers
