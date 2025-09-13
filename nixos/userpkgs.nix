@@ -43,16 +43,9 @@ home-manager
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
-            hyprpaper       #wallpaper utility
+            waypaper       #wallpaper utility
 	          hyprlock        #lock screen utility
-            hyprpanel       #panel for hyprland
-            #hyprpanel dependencies
-              pywal
-              wf-recorder
-              hyprsunset
-              matugen
-	      swww
-              upower
+	      swww          #wallpaper setter
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
