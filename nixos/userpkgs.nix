@@ -51,7 +51,7 @@ home-manager
               wf-recorder
               hyprsunset
               matugen
-              swww
+	      swww
               upower
           ##other cli tools
             tree            #show file trees
