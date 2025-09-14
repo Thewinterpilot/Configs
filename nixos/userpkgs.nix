@@ -60,6 +60,8 @@ home-manager
 	    nautilus
     #discord
       vesktop
+    #element for matrix chat
+      element-web
     #video
       vlc
       shotcut
