@@ -89,9 +89,11 @@ services = {
   #auto clean
     system.autoUpgrade.enable = true;
     nix.settings.auto-optimise-store = true;
-    nix.gc.automatic = true;
-    nix.gc.dates = "daily";
-    nix.gc.options = "--delete-older-than 4d";
+    nix.gc = {
+      automatic = true;
+      dates = "daily";
+      options = "--delete-older-than 4d";
+    };
 
   #enable flakes though I'm not using one right now
     nix.settings.experimental-features = ["nix-command" "flakes" ];
