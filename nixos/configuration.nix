@@ -139,15 +139,8 @@ services = {
 
 
 
-
-
   #set up nerdfonts
-    fonts = {
-      packages = [
-        pkgs.nerd-fonts.jetbrains-mono
-      
-      ];
-    };
+    fonts.packages = [pkgs.nerd-fonts.jetbrains-mono];
 
 
     networking.firewall.extraCommands = ''iptables -t raw -A OUTPUT -p udp -m udp --dport 137 -j CT --helper netbios-ns    '';
