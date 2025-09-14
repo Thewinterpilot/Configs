@@ -8,7 +8,8 @@
     // Choose the order of the modules
     "modules-left": [
     "custom/sep",
-	"battery"
+	"hyprland/workspaces",
+	"pulseaudio"
     ],
     "modules-center": [
 	    "clock"
@@ -17,7 +18,7 @@
     "modules-right": [
 	"network",
         "custom/sep",
-	"pulseaudio",
+	"battery",
 	"custom/sep"
     ],
 
