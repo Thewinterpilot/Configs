@@ -29,7 +29,7 @@
   
   users.users.winter.packages = 
   (with pkgs; [
-home-manager
+  home-manager
     ## terminal & cli tools
       foot
         #tui fileman
@@ -43,16 +43,9 @@ home-manager
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
-            hyprpaper       #wallpaper utility
+            waypaper       #wallpaper utility
 	          hyprlock        #lock screen utility
-            hyprpanel       #panel for hyprland
-            #hyprpanel dependencies
-              pywal
-              wf-recorder
-              hyprsunset
-              matugen
-              swww
-              upower
+	          swww          #wallpaper setter
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
@@ -67,8 +60,10 @@ home-manager
 	    nautilus
     #discord
       vesktop
-    #video player
+    #video
       vlc
+      shotcut
+      kdePackages.kdenlive
     #torrent app for legal downloads
       qbittorrent
     #calendar

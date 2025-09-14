@@ -16,7 +16,8 @@ cp -r --update ~/.config/gtk-3.0 ~/Configs/.config/
 cp -r --update ~/.config/gtk-4.0 ~/Configs/.config/
 cp -r --update ~/.config/hypr ~/Configs/.config/
 cp -r --update ~/.config/walker ~/Configs/.config/
-cp -r --update ~/.config/hyprpanel ~/Configs/.config/
+cp -r --update ~/.config/waybar ~/Configs/.config/
+cp -r --update ~/.config/waypaper ~/Configs/.config/
 echo pushing to git...
 cd ~/Configs
 git add -A
