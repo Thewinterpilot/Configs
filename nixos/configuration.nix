@@ -16,10 +16,12 @@ in
     ];
 
   #home manager things
-    home-manager.useUserPackages = true;
-    home-manager.useGlobalPkgs = true;
-    home-manager.backupFileExtension = "backup";
-    home-manager.users.winter = import ./home.nix;
+  home-manager = {
+    useUserPackages = true;
+    useGlobalPkgs = true;
+    backupFileExtension = "backup";
+    users.winter = import ./home.nix;
+  };
 
   #enabling services
     #hyprland is a tiling window manager and wayland compositor
@@ -41,6 +43,13 @@ services = {
       extraConfig = "HandlePowerKey=sleep";
       lidSwitch = "sleep";
       }; 
+    #xserver things idk
+      xserver.enable = true;
+
+      xserver.xkb = {
+        layout = "us";
+        variant = "";
+      };
 };
 
 
@@ -106,13 +115,7 @@ services = {
 
     i18n.defaultLocale = "en_CA.UTF-8";
 
-  #xserver things
-    services.xserver.enable = true;
 
-    services.xserver.xkb = {
-      layout = "us";
-      variant = "";
-    };
 
 
   #Enable sound with pipewire.

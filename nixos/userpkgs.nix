@@ -44,6 +44,7 @@
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
+            dmenu           #another app launcher
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
 	          swww            #wallpaper setter
@@ -63,7 +64,6 @@
       vesktop
     #video
       vlc
-      shotcut
       kdePackages.kdenlive
     #torrent app for legal downloads
       qbittorrent
