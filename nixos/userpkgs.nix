@@ -24,14 +24,15 @@
 # ];
 
 
-  # if you want my config change this to your username
+  #if you want my config change this to your username
 
   
   users.users.winter.packages = 
   (with pkgs; [
-  home-manager
-    ## terminal & cli tools
+
+    ## terminal emulator
       foot
+      #cli tools
         #tui fileman
           yazi            #terminal file explorer
           ##spec fetching utils
@@ -43,9 +44,9 @@
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
-            waypaper       #wallpaper utility
+            waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
-	          swww          #wallpaper setter
+	          swww            #wallpaper setter
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
@@ -80,9 +81,5 @@
       obsidian
     #screenshot tool
       grimblast
-
-  
-
-
     ]);
 }

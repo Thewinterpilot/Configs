@@ -29,10 +29,13 @@ in
 services = {
     #Enable touchpad support.
       libinput.enable = true;
+
     #ly is a simple, tui display manager with a minimal login screen look
       displayManager.ly.enable = true;
+
     #needed for samba shares
       gvfs.enable = true;
+
     #Power button invokes hibernate, not shutdown.
       logind = {
       extraConfig = "HandlePowerKey=sleep";
@@ -42,14 +45,14 @@ services = {
 
 
   #enable the polkit for sudo permissions in vscode
-      security.polkit.enable = true;
-    systemd = {
-    user.services.polkit-gnome-authentication-agent-1 = {
-      description = "polkit is a permission management toolkit that vscode uses";
-      wantedBy = [ "graphical-session.target" ];
-      wants = [ "graphical-session.target" ];
-      after = [ "graphical-session.target" ];
-      serviceConfig = {
+    security.polkit.enable = true;
+      systemd = {
+      user.services.polkit-gnome-authentication-agent-1 = {
+        description = "polkit is a permission management toolkit that vscode uses";
+        wantedBy = [ "graphical-session.target" ];
+        wants = [ "graphical-session.target" ];
+        after = [ "graphical-session.target" ];
+        serviceConfig = {
           Type = "simple";
           ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
           Restart = "on-failure";
@@ -63,27 +66,24 @@ services = {
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
-    settings = {
+    settings= {
       General = {
         Experimental = true;
         FastConnectable = true;
-	};
-      Policy = {
-        AutoEnable = true;
-	};
-      };
-    };
+	    };
+    Policy.AutoEnable = true;
+	    };
+  };
 
   
 
-  #Bootloader.
+  #Bootloader
     boot.loader.systemd-boot.enable = true;
     boot.loader.efi.canTouchEfiVariables = true;
 
   
   #Enable networking
     networking.networkmanager.enable = true;
-
     networking.hostName = "FMS";
 
   #auto clean
@@ -93,8 +93,7 @@ services = {
     nix.gc.dates = "daily";
     nix.gc.options = "--delete-older-than 4d";
 
-
-
+  #enable flakes though I'm not using one right now
     nix.settings.experimental-features = ["nix-command" "flakes" ];
     
   #unfree packages
@@ -113,8 +112,6 @@ services = {
       variant = "";
     };
 
-  #Enable CUPS to print documents.
-  #  services.printing.enable = true;
 
   #Enable sound with pipewire.
     services.pulseaudio.enable = false;

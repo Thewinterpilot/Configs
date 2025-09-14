@@ -6,10 +6,10 @@
     services.tlp.enable = true;
     services.auto-cpufreq.enable = true;
 
-
   ## systempackages
     environment.systemPackages = (with pkgs; [
-
+      #home manager
+        home-manager
       #vscodium permission tool ig
         lxqt.lxqt-policykit
       #brightness tool for brightness keys
@@ -34,7 +34,6 @@
       #Text editors
         vim
         vscodium
-
     ]);
 
 }
