@@ -44,7 +44,7 @@
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
-            dmenu           #another app launcher
+            bemenu          #another app launcher
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
 	          swww            #wallpaper setter
