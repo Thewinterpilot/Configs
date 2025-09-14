@@ -24,8 +24,22 @@ in
   #enabling services
     #hyprland is a tiling window manager and wayland compositor
     programs.hyprland.enable = true;
+
+
+services = {
+    #Enable touchpad support.
+      libinput.enable = true;
     #ly is a simple, tui display manager with a minimal login screen look
-    services.displayManager.ly.enable = true;
+      displayManager.ly.enable = true;
+    #needed for samba shares
+      gvfs.enable = true;
+    #Power button invokes hibernate, not shutdown.
+      logind = {
+      extraConfig = "HandlePowerKey=sleep";
+      lidSwitch = "sleep";
+      }; 
+};
+
 
   #enable the polkit for sudo permissions in vscode
       security.polkit.enable = true;
@@ -112,8 +126,7 @@ in
       pulse.enable = true;
     };
 
-  #Enable touchpad support.
-    services.libinput.enable = true;
+
 
   #user
     users.users.winter = {
@@ -125,30 +138,18 @@ in
 
 
 
- #Power button invokes hibernate, not shutdown.
-    services.logind = {
-    extraConfig = "HandlePowerKey=sleep";
-    lidSwitch = "sleep";
-}; 
+
 
 
   #set up nerdfonts
-
-
     fonts = {
       packages = [
-        pkgs.nerd-fonts.bigblue-terminal
         pkgs.nerd-fonts.jetbrains-mono
       
       ];
     };
 
 
-  #samba shares (windows network drives)
-    services.gvfs = {
-      enable = true;
-    };
-  
     networking.firewall.extraCommands = ''iptables -t raw -A OUTPUT -p udp -m udp --dport 137 -j CT --helper netbios-ns    '';
   #allowing network ports for samba shares
     networking.firewall.allowedTCPPorts = [ 455 139 138 127 ];

@@ -29,7 +29,7 @@
   
   users.users.winter.packages = 
   (with pkgs; [
-home-manager
+  home-manager
     ## terminal & cli tools
       foot
         #tui fileman
@@ -45,7 +45,7 @@ home-manager
 	          walker          #app launcher
             waypaper       #wallpaper utility
 	          hyprlock        #lock screen utility
-	      swww          #wallpaper setter
+	          swww          #wallpaper setter
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
@@ -60,8 +60,6 @@ home-manager
 	    nautilus
     #discord
       vesktop
-    #element for matrix chat
-      element-web
     #video
       vlc
       shotcut
