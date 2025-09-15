@@ -46,6 +46,7 @@
 	          walker          #app launcher
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
+            hypridle        #idle utility
 	          swww            #wallpaper setter
             rofi-wayland    #yet another app launcher
           ##other cli tools
