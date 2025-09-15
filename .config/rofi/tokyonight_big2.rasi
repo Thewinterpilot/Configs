@@ -109,7 +109,7 @@ element normal active {
 element-icon {
     background-color: inherit;
     text-color: inherit;
-    size: 2.5em;
+    size: 1.0em;
 }
 
 element normal urgent {

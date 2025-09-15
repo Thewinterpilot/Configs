@@ -56,7 +56,8 @@
             cowsay          #dont ask
 
     #browser
-      librewolf
+      librewolf             #personal browser
+      firefox 		    #school browser
     #file explorers
       kdePackages.dolphin
 	    nautilus
