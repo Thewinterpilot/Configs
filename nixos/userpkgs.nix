@@ -65,6 +65,7 @@
       vesktop
     #video
       vlc
+      mpv
       kdePackages.kdenlive
     #torrent app for legal downloads
       qbittorrent
