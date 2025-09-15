@@ -48,6 +48,7 @@
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
 	          swww            #wallpaper setter
+	    variety
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
