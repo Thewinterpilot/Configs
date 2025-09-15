@@ -44,11 +44,10 @@
           ##hyprland specific things
             waybar          #decent bar
 	          walker          #app launcher
-            bemenu          #another app launcher
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
 	          swww            #wallpaper setter
-	    variety
+            wofi            #yet another app launcher
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
