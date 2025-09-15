@@ -47,7 +47,7 @@
             waypaper        #wallpaper utility
 	          hyprlock        #lock screen utility
 	          swww            #wallpaper setter
-            wofi            #yet another app launcher
+            rofi-wayland    #yet another app launcher
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
