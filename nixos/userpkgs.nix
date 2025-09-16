@@ -55,7 +55,7 @@
             python3         #literally just python
             parted          #useful for resizing disks
             cowsay          #funny thing idk
-            zsh             #needed for a script ig
+            qutebrowser
 
     #browser
       librewolf             #personal browser
