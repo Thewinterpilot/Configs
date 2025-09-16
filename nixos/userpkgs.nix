@@ -52,9 +52,10 @@
           ##other cli tools
             tree            #show file trees
             nh              #nixos search utility
-            python3
+            python3         #literally just python
             parted          #useful for resizing disks
-            cowsay          #dont ask
+            cowsay          #funny thing idk
+            zsh             #needed for a script ig
 
     #browser
       librewolf             #personal browser
