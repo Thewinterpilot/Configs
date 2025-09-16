@@ -34,6 +34,7 @@
       #Text editors
         vim
         vscodium
+        micro
     ]);
 
 }

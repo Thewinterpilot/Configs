@@ -54,8 +54,7 @@
             nh              #nixos search utility
             python3         #literally just python
             parted          #useful for resizing disks
-            cowsay          #funny thing idk
-            qutebrowser
+            cowsay          #funny thing
 
     #browser
       librewolf             #personal browser
