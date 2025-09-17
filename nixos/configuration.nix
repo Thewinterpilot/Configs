@@ -12,7 +12,7 @@ in
       ./hardware-configuration.nix
       ./syspkgs.nix
       ./userpkgs.nix
-      (import "${home-manager}/nixos")
+      ("${home-manager}/nixos")
     ];
 
   #home manager things
