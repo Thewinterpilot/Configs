@@ -14,13 +14,15 @@
     programs.bash = {
       enable = true;
       shellAliases = {
-        
+        m = "micro";
+        sm = "sudo micro";
         v = "vim";
         c = "clear";
         cc = "clear; nitch";
 	      sv = "sudo vim";
         code = "codium";
-        rs = "sudo nixos-rebuild switch && bash ~/Configs/update.bash";
+        rs = "sudo nixos-rebuild switch; bash ~/Configs/update.bash";
+        rss = "sudo nixos-rebuild switch";
 	      up = "bash ~/Configs/update.bash";
         nx = "codium /etc/nixos/";
         ss = "nh search ";
