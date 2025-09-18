@@ -14,6 +14,7 @@
     programs.bash = {
       enable = true;
       shellAliases = {
+        btw = "echo 'I use flakes btw'";
         m = "micro";
         sm = "sudo micro";
         v = "vim";

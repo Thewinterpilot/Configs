@@ -12,8 +12,10 @@ in
       ./hardware-configuration.nix
       ./syspkgs.nix
       ./userpkgs.nix
+     
       ("${home-manager}/nixos")
     ];
+
 
   #home manager things
   home-manager = {
@@ -26,7 +28,13 @@ in
   #enabling services
     #hyprland is a tiling window manager and wayland compositor
     programs.hyprland.enable = true;
-
+    
+    
+    programs.sway = {
+      enable = true;
+      wrapperFeatures.gtk = true;
+  };
+ 
 
 services = {
     #Enable touchpad support.
@@ -142,7 +150,7 @@ services = {
 
 
   #set up nerdfonts
-    fonts.packages = [pkgs.nerd-fonts.jetbrains-mono];
+    fonts.packages = [ pkgs.nerd-fonts.jetbrains-mono ];
 
 
     networking.firewall.extraCommands = ''iptables -t raw -A OUTPUT -p udp -m udp --dport 137 -j CT --helper netbios-ns    '';

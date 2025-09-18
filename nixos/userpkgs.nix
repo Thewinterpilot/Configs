@@ -11,7 +11,6 @@
 #   dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
 #   localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
 # };
-
 # #obs studio
 # environment.systemPackages = [
 #   (pkgs.wrapOBS {
@@ -55,6 +54,7 @@
             python3         #literally just python
             parted          #useful for resizing disks
             cowsay          #funny thing
+            mako            #sway notification deamon
 
     #browser
       librewolf             #personal browser

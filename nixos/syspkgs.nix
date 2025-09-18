@@ -35,6 +35,8 @@
         vim
         vscodium
         micro
+      #fingerpint
+        fprintd
     ]);
 
 }
