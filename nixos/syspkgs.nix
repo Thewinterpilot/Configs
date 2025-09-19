@@ -2,6 +2,20 @@
 
 {  
 
+
+  #enabling services
+    #hyprland is a tiling window manager and wayland compositor
+    programs.hyprland.enable = true;
+    
+    
+    programs.sway = {
+      enable = true;
+      wrapperFeatures.gtk = true;
+    };
+
+  #ly is a simple, tui display manager with a minimal login screen look
+      services.displayManager.ly.enable = true;
+
   ##battery life tools
     services.tlp.enable = true;
     services.auto-cpufreq.enable = true;
@@ -10,6 +24,14 @@
     environment.systemPackages = (with pkgs; [
       #home manager
         home-manager
+      ##hyprland specific things
+        waybar          #decent bar
+	      walker          #app launcher
+        grimblast       #screenshot util
+	      hyprlock        #lock screen utility
+        hypridle        #idle utility
+	      swww            #wallpaper setter
+        rofi-wayland    #yet another app launcher
       #vscodium permission tool ig
         lxqt.lxqt-policykit
       #brightness tool for brightness keys

@@ -31,61 +31,36 @@
 
     ## terminal emulator
       foot
-      #cli tools
-        #tui fileman
-          yazi            #terminal file explorer
-          ##spec fetching utils
-            hyfetch		      #shows basic pc spec overlay
-              fastfetch       #needed for hyfetch
-              cpufetch	      #shows cpu spec overlay
-	            nitch           #search util
-              btop		        #shows cpu/gpu/ram usage and list of running applications
-          ##hyprland specific things
-            waybar          #decent bar
-	          walker          #app launcher
-            waypaper        #wallpaper utility
-            wallust         #wallpaper based colour management
-	          hyprlock        #lock screen utility
-            hypridle        #idle utility
-	          swww            #wallpaper setter
-            rofi-wayland    #yet another app launcher
-          ##other cli tools
-            tree            #show file trees
-            nh              #nixos search utility
-            python3         #literally just python
-            parted          #useful for resizing disks
-            cowsay          #funny thing
-            mako            #sway notification deamon
-
+    ##cli tools
+      ##spec fetching utils
+        hyfetch		        #shows basic pc spec overlay
+          fastfetch       #needed for hyfetch
+          cpufetch	      #shows cpu spec overlay
+	        nitch           #search util
+          btop		        #shows cpu/gpu/ram usage and list of running applications
+        ##other cli tools
+          nh              #nixos search utility
+          python3         #literally just python
+          parted          #useful for resizing disks
     #browser
-      librewolf             #personal browser
-      firefox 		    #school browser
-    #file explorers
-      kdePackages.dolphin
+      librewolf           #personal browser
+      firefox 		        #school browser
+    #file explorer
 	    nautilus
     #discord
       vesktop
-    #video
-      vlc
+    #video viewer
       mpv
-      kdePackages.kdenlive
-    #photo viewer
+    #photo tools
       loupe
     #torrent app for legal downloads
       qbittorrent
-    #calendar
-      morgen
     #customisable minecraft client with easy mod support 
       prismlauncher
-    #music player
-	    museeks
-    #game engine
-      godot
     #bluetooth tool
       blueberry
     #notes
       obsidian
-    #screenshot tool
-      grimblast
+
     ]);
 }

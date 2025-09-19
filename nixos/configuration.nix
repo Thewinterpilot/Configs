@@ -25,23 +25,12 @@ in
     users.winter = import ./home.nix;
   };
 
-  #enabling services
-    #hyprland is a tiling window manager and wayland compositor
-    programs.hyprland.enable = true;
-    
-    
-    programs.sway = {
-      enable = true;
-      wrapperFeatures.gtk = true;
-  };
+  
  
 
 services = {
     #Enable touchpad support.
       libinput.enable = true;
-
-    #ly is a simple, tui display manager with a minimal login screen look
-      displayManager.ly.enable = true;
 
     #needed for samba shares
       gvfs.enable = true;
@@ -98,8 +87,8 @@ services = {
     boot.loader.systemd-boot.enable = true;
     boot.loader.efi.canTouchEfiVariables = true;
 
-  #kernel antics
-    boot.kernelPackages = pkgs.linuxPackages_latest;
+  #keep kernel up to date
+    # boot.kernelPackages = pkgs.linuxPackages_latest;
 
   
   #Enable networking
@@ -115,8 +104,8 @@ services = {
       options = "--delete-older-than 4d";
     };
 
-  #enable flakes though I'm not using one right now
-    nix.settings.experimental-features = ["nix-command" "flakes" ];
+  #enable flakes
+    # nix.settings.experimental-features = ["nix-command" "flakes" ];
     
   #unfree packages
     nixpkgs.config.allowUnfree = true;
