@@ -44,6 +44,7 @@
             waybar          #decent bar
 	          walker          #app launcher
             waypaper        #wallpaper utility
+            wallust         #wallpaper based colour management
 	          hyprlock        #lock screen utility
             hypridle        #idle utility
 	          swww            #wallpaper setter
@@ -68,6 +69,8 @@
       vlc
       mpv
       kdePackages.kdenlive
+    #photo viewer
+      loupe
     #torrent app for legal downloads
       qbittorrent
     #calendar
