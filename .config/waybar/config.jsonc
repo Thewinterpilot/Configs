@@ -7,7 +7,6 @@
 
     // Choose the order of the modules
     "modules-left": [
-    "custom/sep",
 	"hyprland/workspaces",
 	"pulseaudio"
     ],
@@ -17,9 +16,7 @@
 
     "modules-right": [
 	"network",
-        "custom/sep",
-	"battery",
-	"custom/sep"
+	"battery"
     ],
 
     // Modules configurationOnline
@@ -27,21 +24,14 @@
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
-        "format": ""
+        "format": "{name}"
         }
     },
     "hyprland/window" : {
         "max-length": 40,
         "seperate-outputs": false
     },
-    "tray": {
-        // "icon-size": 21,
-        "spacing": 10
-        // "icons": {
-        //   "blueman": "bluetooth",
-        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-        // }
-    },
+
     "clock": {
         "format-alt": "{:%Y-%m-%d}"
     },

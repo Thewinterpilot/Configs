@@ -10,12 +10,12 @@ cp --update ~/.config/hyfetch.json ~/Configs/.config/
 
 
 echo copying .config folders...
-cp -r --update ~/.config/foot ~/Configs/.config/
+cp -r --update ~/.config/kitty ~/Configs/.config/
 cp -r --update ~/.config/dunst ~/Configs/.config/
 cp -r --update ~/.config/gtk-3.0 ~/Configs/.config/
 cp -r --update ~/.config/gtk-4.0 ~/Configs/.config/
 cp -r --update ~/.config/hypr ~/Configs/.config/
-cp -r --update ~/.config/walker ~/Configs/.config/
+cp -r --update ~/.config/rofi ~/Configs/.config/
 cp -r --update ~/.config/waybar ~/Configs/.config/
 cp -r --update ~/.config/waypaper ~/Configs/.config/
 echo pushing to git...

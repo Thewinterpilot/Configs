@@ -11,7 +11,6 @@
 #   dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
 #   localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
 # };
-
 # #obs studio
 # environment.systemPackages = [
 #   (pkgs.wrapOBS {
@@ -24,65 +23,46 @@
 # ];
 
 
-  # if you want my config change this to your username
+  #if you want my config change this to your username
 
   
   users.users.winter.packages = 
   (with pkgs; [
-  home-manager
-    ## terminal & cli tools
-      foot
-        #tui fileman
-          yazi            #terminal file explorer
-          ##spec fetching utils
-            hyfetch		      #shows basic pc spec overlay
-              fastfetch       #needed for hyfetch
-              cpufetch	      #shows cpu spec overlay
-	            nitch           #search util
-              btop		        #shows cpu/gpu/ram usage and list of running applications
-          ##hyprland specific things
-            waybar          #decent bar
-	          walker          #app launcher
-            waypaper       #wallpaper utility
-	          hyprlock        #lock screen utility
-	          swww          #wallpaper setter
-          ##other cli tools
-            tree            #show file trees
-            nh              #nixos search utility
-            python3
-            parted          #useful for resizing disks
-            cowsay          #dont ask
 
+    ## terminal emulator
+      foot
+      kitty
+    ##cli tools
+      ##spec fetching utils
+        hyfetch		        #shows basic pc spec overlay
+          fastfetch       #needed for hyfetch
+          cpufetch	      #shows cpu spec overlay
+	        nitch           #search util
+          btop		        #shows cpu/gpu/ram usage and list of running applications
+        ##other cli tools
+          nh              #nixos search utility
+          python3         #literally just python
+          parted          #useful for resizing disks
+          pywal
     #browser
-      librewolf
-    #file explorers
-      kdePackages.dolphin
+      librewolf           #personal browser
+      firefox 		        #school browser
+    #file explorer
 	    nautilus
     #discord
       vesktop
-    #video
-      vlc
-      shotcut
-      kdePackages.kdenlive
+    #video viewer
+      mpv
+    #photo tools
+      loupe
     #torrent app for legal downloads
       qbittorrent
-    #calendar
-      morgen
     #customisable minecraft client with easy mod support 
       prismlauncher
-    #music player
-	    museeks
-    #game engine
-      godot
     #bluetooth tool
       blueberry
     #notes
       obsidian
-    #screenshot tool
-      grimblast
-
-  
-
 
     ]);
 }

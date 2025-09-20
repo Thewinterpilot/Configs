@@ -386,8 +386,7 @@
 #    foreground
 #    format
 #    frame_color
-#    fullscr
-een
+#    fullscreen
 #    new_icon
 #    set_stack_tag
 #    set_transient
