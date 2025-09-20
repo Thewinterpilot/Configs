@@ -105,7 +105,7 @@ services = {
     };
 
   #enable flakes
-    # nix.settings.experimental-features = ["nix-command" "flakes" ];
+     nix.settings.experimental-features = ["nix-command" "flakes" ];
     
   #unfree packages
     nixpkgs.config.allowUnfree = true;
