@@ -11,9 +11,8 @@ a lot of the configs are just modifications [tonybanters' hyprland-btw](https://
 #### Things I'm using & why
 - Hyprland (duh) its a good tiling wm and wayland compositor
 - Waybar because I liked it and understand how to use it
-- Foot terminal because there was a pretty config for it
-- Walker Launcher because its easy and just works
-- Vim because I dont need neovim and find the defaults better looking (cant be asked to change it)
+- alacritty because I like it idk
+- rofi because there was a good config for it
 - VSCodium because its very themeable and easy for gui modification of things
 - Librewolf because its very simple and reasonably secure (might switch to something else)
 - Obsidian because idk honestly idk I dont even use their servers I should switch to something thats FOSS but whatever
