@@ -39,6 +39,7 @@
         export PS1='\[\e[38;5;171m\]\u\[\e[38;5;39m\]@\[\e[38;5;171m\]\h\[\e[38;5;33m\]@\[\e[38;5;171m\]\W\[\e[0m\] '
       '';
   }; ######THIS IS THE END OF THE PROGRAMS.BASH	SEGMENT
+  	programs.home-manager.enable = true;
     services.swww.enable = true;
 }
 

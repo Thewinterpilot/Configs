@@ -31,7 +31,7 @@
 
     ## terminal emulator
       foot
-      kitty
+      alacritty
     ##cli tools
       ##spec fetching utils
         hyfetch		        #shows basic pc spec overlay
@@ -43,7 +43,10 @@
           nh              #nixos search utility
           python3         #literally just python
           parted          #useful for resizing disks
-          pywal
+          
+          waypaper
+	  imagemagick
+	  
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
