@@ -31,6 +31,7 @@
 
     ## terminal emulator
       foot
+      alacritty
       kitty
     ##cli tools
       ##spec fetching utils
@@ -43,7 +44,12 @@
           nh              #nixos search utility
           python3         #literally just python
           parted          #useful for resizing disks
-          pywal
+          ffmpeg-full
+          waypaper
+          pywalfox-native
+	  imagemagick
+	  pywal16
+	  dmenu
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
