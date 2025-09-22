@@ -10,6 +10,8 @@
 @define-color brblk #444b6a; 
 @define-color white #ffffff; 
 
+@import '../../.cache/wal/colors-waybar.css';
+
 * {
     font-family: "JetBrainsMono Nerd Font", monospace;
     font-size: 18px;
@@ -17,26 +19,26 @@
 }
 
 window#waybar {
-    background-color: transparent;
-    color: @fg;
+    background-color: @background;
+    color: @foreground;
 }
 
 #workspaces button {
     padding: 0 6px;
-    color: @cyn;
+    color: @color3;
     background: transparent;
-    border-bottom: 3px solid @bg;
+    border-bottom: 3px solid @color1;
 }
 #workspaces button.active {
-    color: @cyn;
-    border-bottom: 3px solid @mag;
+    color: @color3;
+    border-bottom: 3px solid @color4;
 }
 #workspaces button.empty {
-    color: @white;
+    color: @color1;
 }
 #workspaces button.empty.active {
-    color: @cyn;
-    border-bottom: 3px solid @mag;
+    color: @color3;
+    border-bottom: 3px solid @color6;
 }
 
 #workspaces button.urgent {
@@ -57,24 +59,24 @@ button:hover {
 #network,
 #tray {
     padding: 0 8px;
-    color: @white;
+    color: @color1;
 }
 
 
 
 #clock {
-    color: @cyn;
-    border-bottom: 3px solid @cyn;
+    color: @color3;
+    border-bottom: 3px solid @color1;
 }
 
 #battery {
-    color: @mag;
-    border-bottom: 3px solid @mag;
+    color: @color3;
+    border-bottom: 3px solid @color1;
 }
 
 #disk {
-    color: @ylw;
-    border-bottom: 3px solid @ylw;
+    color: @color3;
+    border-bottom: 3px solid @color1;
 }
 
 #memory {
@@ -88,13 +90,13 @@ button:hover {
 }
 
 #network {
-    color: @blu;
-    border-bottom: 3px solid @blu;
+    color: @color3;
+    border-bottom: 3px solid @color1;
 }
 
 #pulseaudio {
-	color: @mag;
-	border-bottom: 3px solid @mag;
+	color: @color3;
+	border-bottom: 3px solid @color1;
 }
 
 #network.disconnected {

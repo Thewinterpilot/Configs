@@ -13,7 +13,7 @@
   #bash scripts
     programs.bash = {
       enable = true;
-      # bashrcExtra = "nitch";
+      bashrcExtra = "cat ~/.cache/wal/sequences";
       shellAliases = {
         btw = "echo 'I use flakes btw'";
         m = "micro";

@@ -32,6 +32,7 @@
     ## terminal emulator
       foot
       alacritty
+      kitty
     ##cli tools
       ##spec fetching utils
         hyfetch		        #shows basic pc spec overlay
@@ -45,8 +46,9 @@
           parted          #useful for resizing disks
           ffmpeg-full
           waypaper
+          pywalfox-native
 	  imagemagick
-	  
+	  pywal16
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
