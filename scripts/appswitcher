@@ -1,0 +1,2 @@
+#! /bin/sh
+rofi -show window -font JetBrainsMono Nerd Font 12 -p open

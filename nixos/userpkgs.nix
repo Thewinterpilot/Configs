@@ -29,27 +29,7 @@
   users.users.winter.packages = 
   (with pkgs; [
 
-    ## terminal emulator
-      foot
-      alacritty
-      kitty
-    ##cli tools
-      ##spec fetching utils
-        hyfetch		        #shows basic pc spec overlay
-          fastfetch       #needed for hyfetch
-          cpufetch	      #shows cpu spec overlay
-	        nitch           #search util
-          btop		        #shows cpu/gpu/ram usage and list of running applications
-        ##other cli tools
-          nh              #nixos search utility
-          python3         #literally just python
-          parted          #useful for resizing disks
-          ffmpeg-full
-          waypaper
-          pywalfox-native
-	  imagemagick
-	  pywal16
-	  dmenu
+
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
@@ -69,6 +49,5 @@
       blueberry
     #notes
       obsidian
-
     ]);
 }

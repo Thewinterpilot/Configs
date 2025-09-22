@@ -22,16 +22,35 @@
 
   ## systempackages
     environment.systemPackages = (with pkgs; [
-      #home manager
+    ## terminal emulator
+      foot
+      alacritty
+      kitty
+    ## home manager
         home-manager
-      ##hyprland specific things
+      ## hyprland specific things
         waybar          #decent bar
 	      walker          #app launcher
         grimblast       #screenshot util
 	      hyprlock        #lock screen utility
         hypridle        #idle utility
-	      swww            #wallpaper setter
         rofi-wayland    #yet another app launcher
+      ##c li tools
+        ##spec fetching utils
+          hyfetch		        #shows basic pc spec overlay
+            fastfetch       #needed for hyfetch
+            cpufetch	      #shows cpu spec overlay
+            nitch           #search util
+            btop		        #shows cpu/gpu/ram usage and list of running applications
+          ##other cli tools
+            nh              #nixos search utility
+            python3         #literally just python
+            parted          #useful for resizing disks
+          ##wallpaper and theming utilities
+            swww
+            pywalfox-native
+            imagemagick
+            pywal16
       #vscodium permission tool ig
         lxqt.lxqt-policykit
       #brightness tool for brightness keys
@@ -57,8 +76,8 @@
         vim
         vscodium
         micro
-      #fingerpint
-        fprintd
+      #terminal file manager
+        yazi
     ]);
 
 }
