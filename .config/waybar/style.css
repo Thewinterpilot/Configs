@@ -19,7 +19,7 @@
 }
 
 window#waybar {
-    background-color: @background;
+    background-color: @color0;
     color: @foreground;
 }
 

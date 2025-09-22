@@ -1,16 +1,16 @@
 /*
  * Tokyonight colorscheme (big icons) for rofi
- * User: winter
+ * User: w8ste
  */
 
 
 // define colors etc.
 * {
-    bg: #24283b;
+    bg:0 #24283b;
     hv: #9274ca; 
     primary: #C5C8C6; 
     ug: #0B2447;
-    font: "JetBrainsMono NF 11";
+    font: "Monospace 11";
     background-color: @bg;
     //dark: @bg;
     border: 0px;
@@ -43,14 +43,11 @@ mainbox {
     spacing: 0;
     children: [ inputbar, message, listview ];
 }
-
 inputbar {
-    color: @kl;
-    padding: 11px;
-    border: 3px 3px 2px 3px;
-    border-color: @primary;
+
     border-radius: 6px 6px 0px 0px;
 }
+
 
 message {
     padding: 0;

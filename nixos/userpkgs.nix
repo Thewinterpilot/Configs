@@ -49,6 +49,7 @@
           pywalfox-native
 	  imagemagick
 	  pywal16
+	  dmenu
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
