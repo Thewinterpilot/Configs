@@ -64,7 +64,7 @@
       #theme changer
         themechanger
       #notifications
-        dunst
+        mako
 	      libnotify
       #killall command
         killall

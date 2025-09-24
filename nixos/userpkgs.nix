@@ -29,7 +29,9 @@
   users.users.winter.packages = 
   (with pkgs; [
 
-
+    #music player daemon
+      mpd
+      plattenalbum
     #browser
       librewolf           #personal browser
       firefox 		        #school browser
