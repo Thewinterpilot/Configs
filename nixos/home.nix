@@ -23,9 +23,9 @@
         cc = "clear; nitch";
         sv = "sudo nvim";
         code = "codium";
-        rs = "sudo nixos-rebuild switch --impure; bash ~/Configs/scripts/update";
+        rs = "sudo nixos-rebuild switch --impure; bash ~/configs/scripts/update";
         rss = "sudo nixos-rebuild switch --impure";
-	up = "bash ~/Configs/scripts/update";
+	up = "bash ~/configs/scripts/update";
         nx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade --impure";

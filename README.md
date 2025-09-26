@@ -5,6 +5,7 @@ This is my personal nixos config, using hyprland, alacritty, rofi, librewolf and
 
 a few of the configs are just modifications [tonybanters' hyprland-btw](https://github.com/tonybanters/hyprland-btw) configuration
 
+this config is now flake based but only so I can use different types of packages (stable or unstable) for different individual packages instead of system wide
 
 
 
