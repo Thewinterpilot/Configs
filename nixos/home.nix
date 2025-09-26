@@ -18,28 +18,28 @@
         btw = "echo 'I use flakes btw'";
         m = "micro";
         sm = "sudo micro";
-        v = "vim";
+        v = "nvim";
         c = "clear";
         cc = "clear; nitch";
-	      sv = "sudo vim";
+        sv = "sudo nvim";
         code = "codium";
-        rs = "sudo nixos-rebuild switch; bash ~/Configs/scripts/update.bash";
-        rss = "sudo nixos-rebuild switch";
-	      up = "bash ~/Configs/scripts/update.bash";
+        rs = "sudo nixos-rebuild switch --impure; bash ~/Configs/scripts/update";
+        rss = "sudo nixos-rebuild switch --impure";
+	up = "bash ~/Configs/scripts/update";
         nx = "codium /etc/nixos/";
         ss = "nh search ";
-        upgrade = "sudo nixos-rebuild switch --upgrade";
-	      hypr = "vim ~/.config/hypr/";
+        upgrade = "sudo nixos-rebuild switch --upgrade --impure";
+	hypr = "nvim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "sudo vim /etc/nixos/";
+        vnx = "sudo nvim /etc/nixos/";
     };
 
   #startup message 
     initExtra = ''
-        export PS1='\[\e[38;5;171m\]\u\[\e[38;5;39m\]@\[\e[38;5;171m\]\h\[\e[38;5;33m\]@\[\e[38;5;171m\]\W\[\e[0m\] '
+        export PS1='\[\e[3m\]\w\[\e[0m\] >'
       '';
   }; ######THIS IS THE END OF THE PROGRAMS.BASH	SEGMENT
 
-    services.swww.enable = true;
+
 }
 

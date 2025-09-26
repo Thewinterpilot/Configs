@@ -9,7 +9,7 @@
     
     
     programs.sway = {
-      enable = true;
+      enable = false;
       wrapperFeatures.gtk = true;
     };
 
@@ -22,16 +22,37 @@
 
   ## systempackages
     environment.systemPackages = (with pkgs; [
-      #home manager
-        home-manager
-      ##hyprland specific things
+    ## terminal emulator
+      foot
+      alacritty
+      kitty
+    ## swww
+      swww
+      ## hyprland specific things
         waybar          #decent bar
-	      walker          #app launcher
+	walker          #app launcher
         grimblast       #screenshot util
-	      hyprlock        #lock screen utility
+	hyprlock        #lock screen utility
         hypridle        #idle utility
-	      swww            #wallpaper setter
-        rofi-wayland    #yet another app launcher
+        rofi    #yet another app launcher
+      ##cli tools
+	##clipboard util
+	  haskellPackages.greenclip
+        ##spec fetching utils
+          hyfetch		        #shows basic pc spec overlay
+            fastfetch       #needed for hyfetch
+            cpufetch	      #shows cpu spec overlay
+            nitch           #search util
+            btop		        #shows cpu/gpu/ram usage and list of running applications
+          ##other cli tools
+            nh              #nixos search utility
+            python3         #literally just python
+            parted          #useful for resizing disks
+          ##wallpaper and theming utilities
+            swww
+            pywalfox-native
+            imagemagick
+            pywal16
       #vscodium permission tool ig
         lxqt.lxqt-policykit
       #brightness tool for brightness keys
@@ -45,8 +66,8 @@
       #theme changer
         themechanger
       #notifications
-        dunst
-	      libnotify
+        mako
+	libnotify
       #killall command
         killall
       #ark
@@ -55,10 +76,11 @@
         git
       #Text editors
         vim
+        neovim
         vscodium
         micro
-      #fingerpint
-        fprintd
+      #terminal file manager
+        yazi
     ]);
 
 }

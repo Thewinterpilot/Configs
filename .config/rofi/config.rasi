@@ -1,15 +1,15 @@
 configuration{
     modi: ["drun", "window", "run"];
     icon-theme: "Papirus-Dark";
-    show-icons: true;
-    terminal: "foot";
-    drun-display-format: "{icon}:{name}";
+    show-icons: false;
+    terminal: "alacritty";
+    drun-display-format: "{icon}      {name}";
     location: 0;
     disable-history: false;
     sidebar-mode: false;
-    display-drun: " ";
-    display-run: " ";
-    display-window: " ";
+    display-drun: "launch";
+    display-run: "run";
+    display-window: "window";
     
     //adding vim keybindings
     kb-row-up: "Up,Control+k";
@@ -41,7 +41,7 @@ window {
     anchor: center;
     transparency: "screenshot";  
     border: 0px;
-    border-radius: 6px;
+    border-radius: 4px;
     spacing: 0;
     children: [ mainbox ];
 }
