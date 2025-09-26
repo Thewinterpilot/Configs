@@ -109,7 +109,9 @@ services = {
     
   #unfree packages
     nixpkgs.config.allowUnfree = true;
-    
+
+
+
   #locale 
     time.timeZone = "America/Vancouver";
 

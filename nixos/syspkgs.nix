@@ -30,9 +30,9 @@
       swww
       ## hyprland specific things
         waybar          #decent bar
-	      walker          #app launcher
+	walker          #app launcher
         grimblast       #screenshot util
-	      hyprlock        #lock screen utility
+	hyprlock        #lock screen utility
         hypridle        #idle utility
         rofi    #yet another app launcher
       ##cli tools
@@ -67,7 +67,7 @@
         themechanger
       #notifications
         mako
-	      libnotify
+	libnotify
       #killall command
         killall
       #ark

@@ -21,17 +21,17 @@
         v = "nvim";
         c = "clear";
         cc = "clear; nitch";
-	      sv = "sudo vim";
+        sv = "sudo nvim";
         code = "codium";
-        rs = "sudo nixos-rebuild switch; bash ~/Configs/scripts/update";
-        rss = "sudo nixos-rebuild switch";
-	      up = "bash ~/Configs/scripts/update";
+        rs = "sudo nixos-rebuild switch --impure; bash ~/Configs/scripts/update";
+        rss = "sudo nixos-rebuild switch --impure";
+	up = "bash ~/Configs/scripts/update";
         nx = "codium /etc/nixos/";
         ss = "nh search ";
-        upgrade = "sudo nixos-rebuild switch --upgrade";
-	      hypr = "vim ~/.config/hypr/";
+        upgrade = "sudo nixos-rebuild switch --upgrade --impure";
+	hypr = "nvim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "sudo vim /etc/nixos/";
+        vnx = "sudo nvim /etc/nixos/";
     };
 
   #startup message 

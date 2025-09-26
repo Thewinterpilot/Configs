@@ -32,11 +32,11 @@
         winter = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [ ./home.nix ];
-#          extraSpecialArgs = {
+          extraSpecialArgs = {
 #            inherit username;
 #            inherit name;
-#            inherit pkgs;
-#          };
+            inherit pkgs;
+          };
         };
       };
     };
