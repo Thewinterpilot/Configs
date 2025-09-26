@@ -9,7 +9,7 @@
     
     
     programs.sway = {
-      enable = true;
+      enable = false;
       wrapperFeatures.gtk = true;
     };
 
@@ -26,15 +26,15 @@
       foot
       alacritty
       kitty
-    ## home manager
-        home-manager
+    ## swww
+      swww
       ## hyprland specific things
         waybar          #decent bar
 	      walker          #app launcher
         grimblast       #screenshot util
 	      hyprlock        #lock screen utility
         hypridle        #idle utility
-        rofi-wayland    #yet another app launcher
+        rofi    #yet another app launcher
       ##cli tools
 	##clipboard util
 	  haskellPackages.greenclip

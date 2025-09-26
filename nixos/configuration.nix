@@ -2,9 +2,9 @@
 
 
 #this is not generally considered the best way to use home manager but hey, it works.
-let 
-  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-25.05.tar.gz";
-in 
+#let 
+  #home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
+#in 
 
 {
   imports =
@@ -13,7 +13,7 @@ in
       ./syspkgs.nix
       ./userpkgs.nix
      
-      ("${home-manager}/nixos")
+      <home-manager/nixos>
     ];
 
 
@@ -36,10 +36,10 @@ services = {
       gvfs.enable = true;
 
     #Power button invokes hibernate, not shutdown.
-      logind = {
-      extraConfig = "HandlePowerKey=sleep";
-      lidSwitch = "sleep";
-      }; 
+      #logind = {
+      
+      #HandleLidSwitch = "sleep";
+      #}; 
     #xserver things idk
       xserver.enable = true;
 

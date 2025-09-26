@@ -21,7 +21,7 @@
         v = "nvim";
         c = "clear";
         cc = "clear; nitch";
-	      sv = "sudo nvim";
+	      sv = "sudo vim";
         code = "codium";
         rs = "sudo nixos-rebuild switch; bash ~/Configs/scripts/update";
         rss = "sudo nixos-rebuild switch";
@@ -29,9 +29,9 @@
         nx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
-	      hypr = "nvim ~/.config/hypr/";
+	      hypr = "vim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "sudo nvim /etc/nixos/";
+        vnx = "sudo vim /etc/nixos/";
     };
 
   #startup message 
@@ -40,6 +40,6 @@
       '';
   }; ######THIS IS THE END OF THE PROGRAMS.BASH	SEGMENT
 
-    services.swww.enable = true;
+
 }
 

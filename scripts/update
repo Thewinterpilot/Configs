@@ -4,11 +4,11 @@ cp --update /etc/nixos/configuration.nix ~/Configs/nixos/configuration.nix
 cp --update /etc/nixos/home.nix ~/Configs/nixos/home.nix
 cp --update /etc/nixos/syspkgs.nix ~/Configs/nixos/syspkgs.nix
 cp --update /etc/nixos/userpkgs.nix ~/Configs/nixos/userpkgs.nix
-
+cp --update /etc/nixos/flake.nix ~/Configs/nixos/flake.nix
+cp --update /etc/nixos/flake.lock ~.Configs/nixos/flake.lock
 
 echo copying .config files...
 cp --update ~/.config/hyfetch.json ~/Configs/.config/
-
 
 echo copying .config folders...
 cp -r --update ~/.config/alacritty ~/Configs/.config/
@@ -26,7 +26,7 @@ cd ~/Configs
 git add -A
 git commit -a
 git push
-cd 
+cd
 echo please remember to manually copy new important configs to this script update.bash
 
 echo have a good day winter:3
