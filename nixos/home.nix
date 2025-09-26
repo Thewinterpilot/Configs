@@ -18,10 +18,10 @@
         btw = "echo 'I use flakes btw'";
         m = "micro";
         sm = "sudo micro";
-        v = "vim";
+        v = "nvim";
         c = "clear";
         cc = "clear; nitch";
-	      sv = "sudo vim";
+	      sv = "sudo nvim";
         code = "codium";
         rs = "sudo nixos-rebuild switch; bash ~/Configs/scripts/update";
         rss = "sudo nixos-rebuild switch";
@@ -29,9 +29,9 @@
         nx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade";
-	      hypr = "vim ~/.config/hypr/";
+	      hypr = "nvim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "sudo vim /etc/nixos/";
+        vnx = "sudo nvim /etc/nixos/";
     };
 
   #startup message 

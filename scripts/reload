@@ -1,0 +1,5 @@
+# reloads all things
+pkill waybar
+waybar
+hyprctl reload
+wal -R

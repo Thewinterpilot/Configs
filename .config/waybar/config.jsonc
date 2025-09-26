@@ -11,11 +11,11 @@
 	"pulseaudio"
     ],
     "modules-center": [
-	    "clock"
+	    "hyprland/window"
     ],
 
     "modules-right": [
-	"network",
+	"clock",
 	"battery"
     ],
 

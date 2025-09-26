@@ -35,7 +35,9 @@
 	      hyprlock        #lock screen utility
         hypridle        #idle utility
         rofi-wayland    #yet another app launcher
-      ##c li tools
+      ##cli tools
+	##clipboard util
+	  haskellPackages.greenclip
         ##spec fetching utils
           hyfetch		        #shows basic pc spec overlay
             fastfetch       #needed for hyfetch
@@ -74,6 +76,7 @@
         git
       #Text editors
         vim
+        neovim
         vscodium
         micro
       #terminal file manager
