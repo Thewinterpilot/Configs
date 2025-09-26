@@ -1,3 +1,4 @@
+#!/bin/sh
 echo copying nixos config files...
 cp --update /etc/nixos/configuration.nix ~/Configs/nixos/configuration.nix
 cp --update /etc/nixos/home.nix ~/Configs/nixos/home.nix
@@ -17,7 +18,9 @@ cp -r --update ~/.config/gtk-4.0 ~/Configs/.config/
 cp -r --update ~/.config/hypr ~/Configs/.config/
 cp -r --update ~/.config/rofi ~/Configs/.config/
 cp -r --update ~/.config/waybar ~/Configs/.config/
+cp -r --update ~/.config/nvim ~/Configs/.config/
 cp -r --update ~/.config/waypaper ~/Configs/.config/
+
 echo pushing to git...
 cd ~/Configs
 git add -A
