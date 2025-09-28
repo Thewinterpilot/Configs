@@ -31,14 +31,12 @@
 services = {
     #Enable touchpad support.
       libinput.enable = true;
-
     #needed for samba shares
       gvfs.enable = true;
-
     #Power button invokes hibernate, not shutdown.
       #logind = {
       
-      #HandleLidSwitch = "sleep";
+      #LidSwitch = "sleep";
       #}; 
     #xserver things idk
       xserver.enable = true;

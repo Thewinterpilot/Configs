@@ -73,9 +73,5 @@
     "network": {
         "format": "Online",
         "format-disconnected": "Disconnected ⚠"
-    },
-    "custom/sep": {
-        "format" : "|",
-        "interval": 0
     }
-}
+

@@ -23,21 +23,18 @@
   ## systempackages
     environment.systemPackages = (with pkgs; [
     ## terminal emulator
-      foot
       alacritty
-      kitty
     ## swww
       swww
       ## hyprland specific things
         waybar          #decent bar
 	walker          #app launcher
-        grimblast       #screenshot util
+        hyprshot        #screenshot util
 	hyprlock        #lock screen utility
         hypridle        #idle utility
+	hyprpicker      #needed for --freeze in hyprshot and a colour picker
         rofi    #yet another app launcher
       ##cli tools
-	##clipboard util
-	  haskellPackages.greenclip
         ##spec fetching utils
           hyfetch		        #shows basic pc spec overlay
             fastfetch       #needed for hyfetch
@@ -61,8 +58,6 @@
         #samba shares things for my nas
           cifs-utils
           samba
-        #onedrive
-          onedriver
       #theme changer
         themechanger
       #notifications
@@ -79,8 +74,9 @@
         neovim
         vscodium
         micro
-      #terminal file manager
-        yazi
+      #network manager
+        iwd
+
     ]);
 
 }

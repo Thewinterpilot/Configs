@@ -7,19 +7,16 @@ cp --update /etc/nixos/userpkgs.nix ~/configs/nixos/userpkgs.nix
 cp --update /etc/nixos/flake.nix ~/configs/nixos/flake.nix
 cp --update /etc/nixos/flake.lock ~/configs/nixos/flake.lock
 
-echo copying .config files...
-cp --update ~/.config/hyfetch.json ~/configs/.config/
-
-echo copying .config folders...
-cp -r --update ~/.config/alacritty ~/configs/.config/
-cp -r --update ~/.config/mako ~/configs/.config/
-cp -r --update ~/.config/gtk-3.0 ~/configs/.config/
-cp -r --update ~/.config/gtk-4.0 ~/configs/.config/
-cp -r --update ~/.config/hypr ~/configs/.config/
-cp -r --update ~/.config/rofi ~/configs/.config/
-cp -r --update ~/.config/waybar ~/configs/.config/
-cp -r --update ~/.config/nvim ~/configs/.config/
-cp -r --update ~/.config/waypaper ~/configs/.config/
+echo copying .config folders into dotfiles directory...
+cp -r --update ~/.config/alacritty ~/configs/dotfiles/
+cp -r --update ~/.config/mako ~/configs/dotfiles/
+cp -r --update ~/.config/gtk-3.0 ~/configs/dotfiles/
+cp -r --update ~/.config/gtk-4.0 ~/configs/dotfiles/
+cp -r --update ~/.config/hypr ~/configs/dotfiles/
+cp -r --update ~/.config/rofi ~/configs/dotfiles/
+cp -r --update ~/.config/waybar ~/configs/dotfiles/
+cp -r --update ~/.config/nvim ~/configs/dotfiles/
+cp -r --update ~/.config/waypaper ~/configs/dotfiles/
 
 echo pushing to git...
 cd ~/configs
