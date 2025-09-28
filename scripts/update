@@ -15,7 +15,6 @@ cp -r --update ~/.config/gtk-4.0 ~/configs/dotfiles/
 cp -r --update ~/.config/hypr ~/configs/dotfiles/
 cp -r --update ~/.config/rofi ~/configs/dotfiles/
 cp -r --update ~/.config/waybar ~/configs/dotfiles/
-cp -r --update ~/.config/nvim ~/configs/dotfiles/
 cp -r --update ~/.config/waypaper ~/configs/dotfiles/
 
 echo pushing to git...
