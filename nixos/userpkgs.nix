@@ -15,7 +15,7 @@
       librewolf           #personal browser
       firefox 		        #school browser
     #file explorer
-      nautilus
+      kdePackages.dolphin
     #discord
       vesktop
     #video viewer

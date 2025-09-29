@@ -10,12 +10,14 @@
     home.stateVersion = "25.05";
     programs.home-manager.enable = true;
 
+  
+
   #bash scripts
     programs.bash = {
       enable = true;
       bashrcExtra = "cat ~/.cache/wal/sequences";
       shellAliases = {
-        btw = "echo 'I use flakes btw'";
+        btw = "echo 'i use flakes btw'";
         m = "micro";
         sm = "sudo micro";
         v = "nvim";
@@ -40,6 +42,21 @@
       '';
   }; ######THIS IS THE END OF THE PROGRAMS.BASH	SEGMENT
 
+# GTK theming settings
+  gtk = {
+    enable = true;
+    #Icon Theme
+    iconTheme = {
+      package = pkgs.adwaita-icon-theme;
+      name = "Adwaita";
+      # package = pkgs.kdePackages.breeze-icons;
+      # name = "Breeze-Dark";
+    };};
+
+dconf.settings = {
+  "org/gnome/desktop/interface" = {
+    color-scheme = "prefer-dark";
+  };};
 
 }
 
