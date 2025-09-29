@@ -6,6 +6,7 @@
     nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager/release-25.05";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+
   };
 
   outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, ... }:
@@ -22,6 +23,7 @@
           inherit system;
           modules = [ ./configuration.nix ];
           specialArgs = {
+	    
             inherit username;
             inherit name;
             inherit pkgs-unstable;
@@ -31,10 +33,10 @@
       homeConfigurations = {
         winter = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
-          modules = [ ./home.nix ];
+          modules = [ ./home.nix ./configuration.nix ];
           extraSpecialArgs = {
-#            inherit username;
-#            inherit name;
+            inherit username;
+            inherit name;
             inherit pkgs;
           };
         };
