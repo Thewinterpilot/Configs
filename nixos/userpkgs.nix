@@ -16,6 +16,7 @@
       firefox 		        #school browser
     #file explorer
       kdePackages.dolphin
+      yazi
     #discord
       vesktop
     #video viewer

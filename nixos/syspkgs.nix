@@ -24,21 +24,16 @@
     environment.systemPackages = (with pkgs; [
     ## terminal emulator
       alacritty
-    ## swww
-      swww
       ## hyprland specific things
         waybar          #decent bar
+	swww            #wallpaper utility
 	walker          #app launcher
         hyprshot        #screenshot util
 	hyprlock        #lock screen utility
-        hypridle        #idle utility
 	hyprpicker      #needed for --freeze in hyprshot and a colour picker
-        rofi    #yet another app launcher
-      ##cli tools
+        rofi    #app launcher and script dmenu app
+	##cli tools
         ##spec fetching utils
-          hyfetch		        #shows basic pc spec overlay
-            fastfetch       #needed for hyfetch
-            cpufetch	      #shows cpu spec overlay
             nitch           #search util
             btop		        #shows cpu/gpu/ram usage and list of running applications
           ##other cli tools
@@ -58,8 +53,6 @@
         #samba shares things for my nas
           cifs-utils
           samba
-      #theme changer
-        themechanger
       #notifications
         mako
 	libnotify
@@ -70,13 +63,9 @@
       #git
         git
       #Text editors
-        vim
-        neovim
         vscodium
-        micro
-      #network manager
-        iwd
-
+	micro
+      
     ]);
 
 }
