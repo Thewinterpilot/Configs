@@ -48,30 +48,9 @@
         "format": "Disk: {free}"
     },
     "battery": {
-	"interval": 0.5,
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "Bat: {capacity}% {icon} {time}",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "Bat {capacity}%",
-        "format-time": "{H}:{M}",
-        "format-icons": ["", "", "", "", ""]
+	"format": "󰁹{capacity}%"
     },
   "pulseaudio": {
-    "format": "{volume}%",
-    "format-muted": " {format_source}",
-    "format-icons": {
-      "default": [
-        "",
-        ""
-      ]
-    }
-   },
-    "network": {
-        "format": "Online",
-        "format-disconnected": "Disconnected ⚠"
-    }
+    "format": "{volume}%"
 
+   }

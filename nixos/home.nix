@@ -53,10 +53,25 @@
       # name = "Breeze-Dark";
     };};
 
-dconf.settings = {
-  "org/gnome/desktop/interface" = {
-    color-scheme = "prefer-dark";
-  };};
+  dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      color-scheme = "prefer-dark";
+    };};
+
+
+# vim options
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+    plugins =
+    with pkgs.vimPlugins; [
+      pywal-nvim
+      LazyVim
+
+      ];
+    };
+
+  
 
 }
 
