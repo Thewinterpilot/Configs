@@ -23,7 +23,6 @@
           inherit system;
           modules = [ ./configuration.nix ];
           specialArgs = {
-	    
             inherit username;
             inherit name;
             inherit pkgs-unstable;
