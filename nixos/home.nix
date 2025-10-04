@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-unstable, lib, ... }:
 
 
 {
@@ -17,23 +17,20 @@
       enable = true;
       bashrcExtra = "cat ~/.cache/wal/sequences";
       shellAliases = {
-        btw = "echo 'i use flakes btw'";
-        m = "micro";
-        sm = "sudo micro";
-        v = "nvim";
+        V = "sudo vim .";
+        v = "vim .";
         c = "clear";
         cc = "clear; nitch";
-        sv = "sudo nvim";
-        code = "codium";
+        code = "codium .";
         rs = "sudo nixos-rebuild switch --impure; bash ~/configs/scripts/update";
         rss = "sudo nixos-rebuild switch --impure";
 	up = "bash ~/configs/scripts/update";
-        nx = "codium /etc/nixos/";
+        cnx = "codium /etc/nixos/";
         ss = "nh search ";
         upgrade = "sudo nixos-rebuild switch --upgrade --impure";
-	hypr = "nvim ~/.config/hypr/";
+	hypr = "vim ~/.config/hypr/";
         nd = "cd /etc/nixos/";
-        vnx = "sudo nvim /etc/nixos/";
+
     };
 
   #startup message 
@@ -53,25 +50,17 @@
       # name = "Breeze-Dark";
     };};
 
-  dconf.settings = {
+  dconf = {
+      enable = true;
+    settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-    };};
+    };};};
 
 
-# vim options
-  programs.neovim = {
-    enable = true;
-    defaultEditor = true;
-    plugins =
-    with pkgs.vimPlugins; [
-      pywal-nvim
-      LazyVim
 
-      ];
-    };
 
-  
 
+ 
 }
 

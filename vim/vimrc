@@ -1,0 +1,4 @@
+source ~/configs/vim/options.vim
+source ~/configs/vim/keybinds.vim
+source ~/configs/vim/plugins.vim
+

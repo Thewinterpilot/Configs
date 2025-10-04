@@ -12,7 +12,6 @@ in
       ./hardware-configuration.nix
       ./syspkgs.nix
       ./userpkgs.nix
-     
       <home-manager/nixos>
     ];
 
@@ -26,7 +25,7 @@ home-manager.backupFileExtension = "hm-backup";
 
 
   
- 
+
 
 services = {
     #Enable touchpad support.
@@ -46,6 +45,8 @@ services = {
         variant = "";
       };
 };
+
+environment.variables = { EDITOR = "vim"; };
 
 
   #enable the polkit for sudo permissions in vscode
@@ -80,8 +81,20 @@ services = {
   };
 
   
+  #appimage support
+    boot.binfmt.registrations.appimage = {
+    wrapInterpreterInShell = false;
+    interpreter = "${pkgs.appimage-run}/bin/appimage-run";
+    recognitionType = "magic";
+    offset = 0;
+    mask = ''\xff\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff'';
+    magicOrExtension = ''\x7fELF....AI\x02'';
+    };
+    programs.appimage.enable = true;
+    programs.appimage.binfmt = true;
+    programs.appimage.package = pkgs.appimage-run.override { extraPkgs = pkgs: [pkgs.python312]; };
 
-  #Bootloader
+#Bootloader
     boot.loader.systemd-boot.enable = true;
     boot.loader.efi.canTouchEfiVariables = true;
 
@@ -108,14 +121,9 @@ services = {
   #unfree packages
     nixpkgs.config.allowUnfree = true;
 
-
-
   #locale 
     time.timeZone = "America/Vancouver";
-
     i18n.defaultLocale = "en_CA.UTF-8";
-
-
 
 
   #Enable sound with pipewire.
@@ -128,8 +136,6 @@ services = {
       pulse.enable = true;
     };
 
-
-
   #user
     users.users.winter = {
       isNormalUser = true;
@@ -141,8 +147,6 @@ services = {
 
 
 
-  #set up nerdfonts
-    fonts.packages = [ pkgs.nerd-fonts.jetbrains-mono ];
 
 
     networking.firewall.extraCommands = ''iptables -t raw -A OUTPUT -p udp -m udp --dport 137 -j CT --helper netbios-ns    '';
